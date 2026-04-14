@@ -1,0 +1,5 @@
+/* App.css - Reset Vite defaults */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

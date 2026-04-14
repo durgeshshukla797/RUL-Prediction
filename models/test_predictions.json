@@ -1,0 +1,902 @@
+[
+  {
+    "engine_id": 1,
+    "actual_rul": 112.0,
+    "predicted_rul": 111.01,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 2,
+    "actual_rul": 98.0,
+    "predicted_rul": 123.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 3,
+    "actual_rul": 69.0,
+    "predicted_rul": 60.35,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998
+  },
+  {
+    "engine_id": 4,
+    "actual_rul": 82.0,
+    "predicted_rul": 112.84,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 5,
+    "actual_rul": 91.0,
+    "predicted_rul": 124.29,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 6,
+    "actual_rul": 93.0,
+    "predicted_rul": 98.74,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 7,
+    "actual_rul": 91.0,
+    "predicted_rul": 114.2,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 8,
+    "actual_rul": 95.0,
+    "predicted_rul": 99.15,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 9,
+    "actual_rul": 111.0,
+    "predicted_rul": 118.37,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 10,
+    "actual_rul": 96.0,
+    "predicted_rul": 99.16,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 11,
+    "actual_rul": 97.0,
+    "predicted_rul": 89.47,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 12,
+    "actual_rul": 124.0,
+    "predicted_rul": 102.97,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 13,
+    "actual_rul": 95.0,
+    "predicted_rul": 96.84,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 14,
+    "actual_rul": 107.0,
+    "predicted_rul": 98.04,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 15,
+    "actual_rul": 83.0,
+    "predicted_rul": 110.75,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 16,
+    "actual_rul": 84.0,
+    "predicted_rul": 98.95,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 17,
+    "actual_rul": 50.0,
+    "predicted_rul": 50.09,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998
+  },
+  {
+    "engine_id": 18,
+    "actual_rul": 28.0,
+    "predicted_rul": 34.23,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9211
+  },
+  {
+    "engine_id": 19,
+    "actual_rul": 87.0,
+    "predicted_rul": 89.44,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 20,
+    "actual_rul": 16.0,
+    "predicted_rul": 19.68,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9375
+  },
+  {
+    "engine_id": 21,
+    "actual_rul": 57.0,
+    "predicted_rul": 94.11,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 22,
+    "actual_rul": 111.0,
+    "predicted_rul": 116.87,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 23,
+    "actual_rul": 113.0,
+    "predicted_rul": 101.32,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 24,
+    "actual_rul": 20.0,
+    "predicted_rul": 19.69,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9963
+  },
+  {
+    "engine_id": 25,
+    "actual_rul": 125.0,
+    "predicted_rul": 115.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 26,
+    "actual_rul": 119.0,
+    "predicted_rul": 117.19,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 27,
+    "actual_rul": 66.0,
+    "predicted_rul": 80.23,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 28,
+    "actual_rul": 97.0,
+    "predicted_rul": 119.5,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 29,
+    "actual_rul": 90.0,
+    "predicted_rul": 111.55,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 30,
+    "actual_rul": 115.0,
+    "predicted_rul": 105.92,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 31,
+    "actual_rul": 8.0,
+    "predicted_rul": 5.37,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 32,
+    "actual_rul": 48.0,
+    "predicted_rul": 49.68,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999
+  },
+  {
+    "engine_id": 33,
+    "actual_rul": 106.0,
+    "predicted_rul": 110.54,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 34,
+    "actual_rul": 7.0,
+    "predicted_rul": 6.8,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 35,
+    "actual_rul": 11.0,
+    "predicted_rul": 17.89,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.929
+  },
+  {
+    "engine_id": 36,
+    "actual_rul": 19.0,
+    "predicted_rul": 23.87,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9942
+  },
+  {
+    "engine_id": 37,
+    "actual_rul": 21.0,
+    "predicted_rul": 22.79,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.999
+  },
+  {
+    "engine_id": 38,
+    "actual_rul": 50.0,
+    "predicted_rul": 60.28,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998
+  },
+  {
+    "engine_id": 39,
+    "actual_rul": 125.0,
+    "predicted_rul": 122.33,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 40,
+    "actual_rul": 28.0,
+    "predicted_rul": 35.51,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.6701
+  },
+  {
+    "engine_id": 41,
+    "actual_rul": 18.0,
+    "predicted_rul": 21.04,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9958
+  },
+  {
+    "engine_id": 42,
+    "actual_rul": 10.0,
+    "predicted_rul": 9.36,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9998
+  },
+  {
+    "engine_id": 43,
+    "actual_rul": 59.0,
+    "predicted_rul": 84.41,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 44,
+    "actual_rul": 109.0,
+    "predicted_rul": 107.66,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 45,
+    "actual_rul": 114.0,
+    "predicted_rul": 96.02,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 46,
+    "actual_rul": 47.0,
+    "predicted_rul": 40.99,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9277
+  },
+  {
+    "engine_id": 47,
+    "actual_rul": 125.0,
+    "predicted_rul": 109.77,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 48,
+    "actual_rul": 92.0,
+    "predicted_rul": 110.84,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 49,
+    "actual_rul": 21.0,
+    "predicted_rul": 19.07,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.911
+  },
+  {
+    "engine_id": 50,
+    "actual_rul": 79.0,
+    "predicted_rul": 117.12,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 51,
+    "actual_rul": 114.0,
+    "predicted_rul": 96.93,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 52,
+    "actual_rul": 29.0,
+    "predicted_rul": 38.39,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.835
+  },
+  {
+    "engine_id": 53,
+    "actual_rul": 26.0,
+    "predicted_rul": 31.11,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.6889
+  },
+  {
+    "engine_id": 54,
+    "actual_rul": 97.0,
+    "predicted_rul": 119.41,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 55,
+    "actual_rul": 125.0,
+    "predicted_rul": 123.55,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 56,
+    "actual_rul": 15.0,
+    "predicted_rul": 17.39,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8112
+  },
+  {
+    "engine_id": 57,
+    "actual_rul": 103.0,
+    "predicted_rul": 102.39,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 58,
+    "actual_rul": 37.0,
+    "predicted_rul": 64.67,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999
+  },
+  {
+    "engine_id": 59,
+    "actual_rul": 114.0,
+    "predicted_rul": 107.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 60,
+    "actual_rul": 100.0,
+    "predicted_rul": 106.89,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 61,
+    "actual_rul": 21.0,
+    "predicted_rul": 24.53,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9967
+  },
+  {
+    "engine_id": 62,
+    "actual_rul": 54.0,
+    "predicted_rul": 41.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997
+  },
+  {
+    "engine_id": 63,
+    "actual_rul": 72.0,
+    "predicted_rul": 108.71,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 64,
+    "actual_rul": 28.0,
+    "predicted_rul": 21.21,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9969
+  },
+  {
+    "engine_id": 65,
+    "actual_rul": 125.0,
+    "predicted_rul": 117.49,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 66,
+    "actual_rul": 14.0,
+    "predicted_rul": 24.22,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9964
+  },
+  {
+    "engine_id": 67,
+    "actual_rul": 77.0,
+    "predicted_rul": 116.81,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 68,
+    "actual_rul": 8.0,
+    "predicted_rul": 5.99,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 69,
+    "actual_rul": 121.0,
+    "predicted_rul": 123.52,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 70,
+    "actual_rul": 94.0,
+    "predicted_rul": 103.94,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 71,
+    "actual_rul": 118.0,
+    "predicted_rul": 115.92,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 72,
+    "actual_rul": 50.0,
+    "predicted_rul": 77.73,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 73,
+    "actual_rul": 125.0,
+    "predicted_rul": 108.61,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 74,
+    "actual_rul": 125.0,
+    "predicted_rul": 114.66,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 75,
+    "actual_rul": 113.0,
+    "predicted_rul": 105.36,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 76,
+    "actual_rul": 10.0,
+    "predicted_rul": 10.05,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9987
+  },
+  {
+    "engine_id": 77,
+    "actual_rul": 34.0,
+    "predicted_rul": 37.79,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.8576
+  },
+  {
+    "engine_id": 78,
+    "actual_rul": 107.0,
+    "predicted_rul": 124.63,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 79,
+    "actual_rul": 63.0,
+    "predicted_rul": 104.43,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 80,
+    "actual_rul": 90.0,
+    "predicted_rul": 83.18,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 81,
+    "actual_rul": 8.0,
+    "predicted_rul": 8.12,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9992
+  },
+  {
+    "engine_id": 82,
+    "actual_rul": 9.0,
+    "predicted_rul": 8.55,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9999
+  },
+  {
+    "engine_id": 83,
+    "actual_rul": 125.0,
+    "predicted_rul": 128.57,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 84,
+    "actual_rul": 58.0,
+    "predicted_rul": 72.32,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999
+  },
+  {
+    "engine_id": 85,
+    "actual_rul": 118.0,
+    "predicted_rul": 111.18,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 86,
+    "actual_rul": 89.0,
+    "predicted_rul": 102.04,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 87,
+    "actual_rul": 116.0,
+    "predicted_rul": 114.41,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 88,
+    "actual_rul": 115.0,
+    "predicted_rul": 121.4,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 89,
+    "actual_rul": 125.0,
+    "predicted_rul": 114.74,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 90,
+    "actual_rul": 28.0,
+    "predicted_rul": 26.64,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8923
+  },
+  {
+    "engine_id": 91,
+    "actual_rul": 38.0,
+    "predicted_rul": 24.84,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9826
+  },
+  {
+    "engine_id": 92,
+    "actual_rul": 20.0,
+    "predicted_rul": 24.53,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9886
+  },
+  {
+    "engine_id": 93,
+    "actual_rul": 85.0,
+    "predicted_rul": 57.83,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9995
+  },
+  {
+    "engine_id": 94,
+    "actual_rul": 55.0,
+    "predicted_rul": 72.53,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999
+  },
+  {
+    "engine_id": 95,
+    "actual_rul": 125.0,
+    "predicted_rul": 91.2,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 96,
+    "actual_rul": 125.0,
+    "predicted_rul": 115.81,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 97,
+    "actual_rul": 82.0,
+    "predicted_rul": 105.78,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 98,
+    "actual_rul": 59.0,
+    "predicted_rul": 72.73,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 99,
+    "actual_rul": 117.0,
+    "predicted_rul": 119.29,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0
+  },
+  {
+    "engine_id": 100,
+    "actual_rul": 20.0,
+    "predicted_rul": 21.16,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.997
+  }
+]

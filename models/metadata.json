@@ -1,0 +1,46 @@
+{
+  "dataset": "FD001",
+  "window_size": 30,
+  "rul_cap": 125,
+  "feature_cols": [
+    "c1",
+    "c2",
+    "s2",
+    "s3",
+    "s4",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+  ],
+  "n_features": 17,
+  "health_labels": {
+    "0": "Critical",
+    "1": "Warning",
+    "2": "Healthy"
+  },
+  "health_colors": {
+    "0": "critical",
+    "1": "warning",
+    "2": "healthy"
+  },
+  "trained_models": [
+    "hybrid"
+  ],
+  "bugs_fixed": [
+    "RUL normalized to [0,1] before training",
+    "Denormalized for evaluation (RMSE in cycles)",
+    "Class weights applied (11x Healthy imbalance)",
+    "Loss weights: rul=1.0, health=0.3",
+    "Zero-variance features auto-removed (c3 in FD001)",
+    "Gradient clipping (clipnorm=1.0)"
+  ]
+}

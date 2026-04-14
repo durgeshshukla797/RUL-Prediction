@@ -1,0 +1,9 @@
+{
+  "best_model": "cnn",
+  "metrics": {
+    "rmse": 20.64,
+    "mae": 16.085,
+    "accuracy": 0.9298,
+    "f1": 0.9519
+  }
+}
