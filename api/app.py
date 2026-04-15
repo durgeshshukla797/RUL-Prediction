@@ -64,14 +64,28 @@ app = FastAPI(
 # ── Middleware: Request Logging ──
 @app.middleware("http")
 async def log_requests(request, call_next):
-    logger.info(f"Incoming request: {request.method} {request.url.path}")
+    origin = request.headers.get("origin")
+    logger.info(f"Incoming: {request.method} {request.url.path} [Origin: {origin}]")
     response = await call_next(request)
-    logger.info(f"Response status: {response.status_code}")
+    logger.info(f"Response: {response.status_code}")
     return response
 
 # ── Middleware: CORS ──
+# Explicitly whitelist the production Vercel URL and common dev origins
+ALLOWED_ORIGINS = [
+    "https://rul-prediction.vercel.app",
+    "https://rul-prediction-git-main-durgeshshukla797s-projects.vercel.app",
+    "http://localhost:5173",
+    "http://localhost:3000",
+]
+
+# Also include anything from the environment
 raw_origins = os.getenv("ALLOWED_ORIGINS", "*")
-ALLOWED_ORIGINS = [o.strip() for o in raw_origins.split(",") if o.strip()]
+if raw_origins != "*":
+    env_origins = [o.strip() for o in raw_origins.split(",") if o.strip()]
+    ALLOWED_ORIGINS.extend(env_origins)
+else:
+    ALLOWED_ORIGINS = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
