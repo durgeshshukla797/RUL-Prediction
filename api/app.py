@@ -10,8 +10,21 @@ import sys
 import json
 import io
 import pickle
+import logging
 import numpy as np
 import pandas as pd
+from dotenv import load_dotenv
+
+# Load environment variables from .env file (if exists)
+load_dotenv()
+
+# ── Logging Setup ─────────────────────────────────────────────────────────────
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+logger = logging.getLogger("api")
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
@@ -48,9 +61,12 @@ app = FastAPI(
     version="2.0.0",
 )
 
+# CORS Configuration
+ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "*").split(",")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=ALLOWED_ORIGINS,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -64,14 +80,14 @@ def load_combined_state():
     dataset = "combined"
     d_path = os.path.join(MODELS_DIR, dataset)
     if not os.path.exists(d_path):
-        print(f"[api] Warning: combined models not found at {d_path}. Run train_combined first.")
+        logger.warning(f"Combined models not found at {d_path}. Run train_combined first.")
         return
         
-    print(f"[api] Loading combined dataset into memory...")
+    logger.info(f"Loading combined dataset into memory...")
     try:
         state["scaler"], state["feature_cols"], state["rul_cap"] = load_preprocessing_artifacts(d_path)
     except Exception as e:
-        print(f"Failed to load artifacts for {dataset}: {e}")
+        logger.error(f"Failed to load artifacts for {dataset}: {e}")
         return
         
     # Read window_size from metadata.json — must match what the model was trained with
@@ -325,3 +341,15 @@ async def get_best_model_info():
 @app.get("/per_dataset_metrics", tags=["evaluation"])
 async def get_per_dataset_metrics():
     return get_state().get("per_dataset_metrics", {})
+
+
+# ── Production Entrypoint ─────────────────────────────────────────────────────
+
+if __name__ == "__main__":
+    import uvicorn
+    host = os.getenv("HOST", "0.0.0.0")
+    port = int(os.getenv("PORT", 8000))
+    reload = os.getenv("DEBUG", "false").lower() == "true"
+    
+    logger.info(f"Starting server on {host}:{port} (debug={reload})")
+    uvicorn.run("api.app:app", host=host, port=port, reload=reload)
