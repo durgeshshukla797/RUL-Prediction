@@ -19,6 +19,7 @@ import {
   fetchPredictions,
   fetchPerDatasetMetrics,
   predict,
+  BASE_URL
 } from './api/client';
 
 // ── Fallback: show engines 1-100 even when API is offline ─────────────────
@@ -354,7 +355,7 @@ export default function App() {
               <div className="card">
                 <p className="section-title">Model Comparison</p>
                 <img
-                  src={`http://localhost:8000/plots/combined/model_comparison.png`}
+                  src={`${BASE_URL}/plots/combined/model_comparison.png`}
                   alt="Model Comparison"
                   className="w-full h-auto rounded mt-2 border border-border"
                   onError={(e) => e.target.style.display = 'none'}
@@ -363,7 +364,7 @@ export default function App() {
               <div className="card">
                 <p className="section-title">Training Loss Curves</p>
                 <img
-                  src={`http://localhost:8000/plots/combined/loss_curve.png`}
+                  src={`${BASE_URL}/plots/combined/loss_curve.png`}
                   alt="Loss Curve"
                   className="w-full h-auto rounded mt-2 border border-border"
                   onError={(e) => e.target.style.display = 'none'}
@@ -375,7 +376,7 @@ export default function App() {
               <div className="card">
                 <p className="section-title">Actual vs Predicted RUL</p>
                 <img
-                  src={`http://localhost:8000/plots/combined/prediction_vs_actual.png`}
+                  src={`${BASE_URL}/plots/combined/prediction_vs_actual.png`}
                   alt="Prediction vs Actual"
                   className="w-full h-auto rounded mt-2 border border-border"
                   onError={(e) => e.target.style.display = 'none'}
@@ -384,7 +385,7 @@ export default function App() {
               <div className="card">
                 <p className="section-title">Error Distribution</p>
                 <img
-                  src={`http://localhost:8000/plots/combined/error_distribution.png`}
+                  src={`${BASE_URL}/plots/combined/error_distribution.png`}
                   alt="Error Distribution"
                   className="w-full h-auto rounded mt-2 border border-border"
                   onError={(e) => e.target.style.display = 'none'}
