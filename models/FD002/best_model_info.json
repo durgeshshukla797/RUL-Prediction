@@ -1,9 +1,0 @@
-{
-  "best_model": "hybrid",
-  "metrics": {
-    "rmse": 24.27,
-    "mae": 19.727,
-    "accuracy": 0.9405,
-    "f1": 0.9489
-  }
-}

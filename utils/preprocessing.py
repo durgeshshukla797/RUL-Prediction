@@ -242,7 +242,7 @@ def preprocess_train(
     df           = add_rul_train(train_df, rul_cap=rul_cap)
     df           = add_health_label(df, rul_cap=rul_cap)
     feature_cols = get_feature_columns(df, drop_constant=drop_constant)
-    df           = apply_ema_smoothing(df, feature_cols, alpha=0.3)
+    df           = apply_ema_smoothing(df, feature_cols, alpha=0.4)
     scaler       = fit_scaler(df, feature_cols)
     df           = apply_scaler(df, scaler, feature_cols)
 

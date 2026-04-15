@@ -122,13 +122,24 @@ def create_inference_sequence(
     """
     Create a single inference window from the last `window_size` rows of an engine.
 
+    If the engine has fewer rows than `window_size`, the sequence is front-padded
+    by repeating the earliest available row.  This means even brand-new engines
+    with only a handful of cycles can still receive a prediction.
+
     Returns
     -------
-    X : (1, window_size, n_features) or None if not enough history
+    X : (1, window_size, n_features)  — never None
     """
     engine_df = engine_df.sort_values("time")
-    if len(engine_df) < window_size:
-        return None
-    window = engine_df.iloc[-window_size:]
-    X      = window[feature_cols].values.astype(np.float32)
-    return X[np.newaxis, ...]  # (1, window_size, n_features)
+    data = engine_df[feature_cols].values.astype(np.float32)
+
+    if len(data) >= window_size:
+        # Normal case: take the last window_size rows
+        window = data[-window_size:]
+    else:
+        # Short engine: front-pad with the first row repeated
+        pad_rows = window_size - len(data)
+        pad = np.tile(data[[0]], (pad_rows, 1))   # repeat first row
+        window = np.vstack([pad, data])
+
+    return window[np.newaxis, ...]  # (1, window_size, n_features)

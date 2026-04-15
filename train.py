@@ -28,6 +28,7 @@ import json
 import argparse
 import shutil
 import numpy as np
+import pandas as pd
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -44,8 +45,6 @@ from utils.preprocessing import (
 )
 from utils.windowing import create_sequences, create_sequences_test_last
 from models_arch.cnn_lstm import build_hybrid_model
-from models_arch.lstm_only import build_lstm_model
-from models_arch.cnn_only import build_cnn_model
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 import tensorflow as tf
@@ -69,24 +68,35 @@ HEALTH_COLORS  = {0: "critical", 1: "warning",  2: "healthy"}
 
 # ── Compilation & Callbacks ───────────────────────────────────────────────────
 
-def compile_model(model, learning_rate: float = 1e-3):
+def compile_model(model, learning_rate: float = 5e-4):
     model.compile(
-        optimizer=tf.keras.optimizers.Adam(learning_rate=learning_rate, clipnorm=1.0),
+        optimizer=tf.keras.optimizers.Adam(
+            learning_rate=learning_rate,
+            clipnorm=1.0,
+        ),
         loss={"rul": "mse", "health": "sparse_categorical_crossentropy"},
-        loss_weights={"rul": 1.0, "health": 0.3},
+        # Increased RUL weight — regression is the primary objective
+        loss_weights={"rul": 1.5, "health": 0.3},
         metrics={"rul": ["mae"], "health": ["accuracy"]},
     )
     return model
 
-def get_callbacks(patience: int = 10):
+def get_callbacks(patience: int = 12):
     return [
         EarlyStopping(
-            monitor="val_loss", patience=patience,
-            restore_best_weights=True, verbose=1,
+            monitor="val_rul_mae",           # monitor regression MAE directly
+            patience=patience,
+            restore_best_weights=True,
+            verbose=1,
+            mode="min",
         ),
         ReduceLROnPlateau(
-            monitor="val_loss", factor=0.5,
-            patience=max(3, patience // 3), min_lr=1e-6, verbose=1,
+            monitor="val_rul_mae",
+            factor=0.5,
+            patience=max(4, patience // 3),
+            min_lr=1e-6,
+            mode="min",
+            verbose=1,
         ),
     ]
 
@@ -239,32 +249,50 @@ def generate_plots(dataset: str, all_histories: list, best_preds: list, all_metr
         print(f"Failed to plot model_comparison: {e}")
 
 
-# ── Training Pipeline For A Single Dataset ────────────────────────────────────
+# ── Training Pipeline For Combined Datasets ───────────────────────────────────
 
-def train_dataset(dataset: str, args):
+def train_combined(args):
+    dataset = "combined"
     models_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", dataset)
     plots_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "plots", dataset)
     os.makedirs(models_dir, exist_ok=True)
 
     data_dir = os.path.dirname(os.path.abspath(__file__))
-    train_file, test_file, rul_file = DATASET_FILES[dataset]
-    print(f"\n[{dataset}] Loading dataset files...")
     
-    # ── 1. Load Data 
-    train_raw, test_raw, rul_df = load_dataset(
-        os.path.join(data_dir, train_file),
-        os.path.join(data_dir, test_file),
-        os.path.join(data_dir, rul_file),
-    )
+    print(f"\n[combined] Loading and combining all dataset files...")
+    
+    # Offsets for combining dataset IDs to maintain uniqueness
+    offsets = {"FD001": 1000, "FD002": 2000, "FD003": 3000, "FD004": 4000}
+    
+    train_raw_list, test_raw_list, rul_df_list = [], [], []
+    
+    for dst, (tr_file, te_file, ru_file) in DATASET_FILES.items():
+        tr, te, ru = load_dataset(
+            os.path.join(data_dir, tr_file),
+            os.path.join(data_dir, te_file),
+            os.path.join(data_dir, ru_file)
+        )
+        offset = offsets[dst]
+        tr["unit"] += offset
+        te["unit"] += offset
+        ru["unit"] += offset
+        
+        train_raw_list.append(tr)
+        test_raw_list.append(te)
+        rul_df_list.append(ru)
+
+    train_raw = pd.concat(train_raw_list, ignore_index=True)
+    test_raw = pd.concat(test_raw_list, ignore_index=True)
+    rul_df = pd.concat(rul_df_list, ignore_index=True)
 
     # ── 2. Preprocessing
-    print(f"[{dataset}] Preprocessing (EMA smoothing enabled)...")
+    print(f"[combined] Preprocessing (EMA smoothing enabled)...")
     train_df, scaler, feature_cols = preprocess_train(train_raw, rul_cap=args.rul_cap)
     test_df  = preprocess_test(test_raw, rul_df, scaler, feature_cols, rul_cap=args.rul_cap)
     save_preprocessing_artifacts(scaler, feature_cols, models_dir, rul_cap=args.rul_cap)
 
     # ── 3. Windowing
-    print(f"[{dataset}] Creating sequence windows (size={args.window_size})...")
+    print(f"[combined] Creating sequence windows (size={args.window_size})...")
     X, y_reg, y_reg_raw, y_clf = create_sequences(train_df, feature_cols, window_size=args.window_size)
     X_reg_test, y_reg_test, y_raw_test, X_clf_test, y_clf_test = create_sequences_test_last(
         test_df, feature_cols, window_size=args.window_size
@@ -283,80 +311,77 @@ def train_dataset(dataset: str, args):
 
     input_shape = (args.window_size, len(feature_cols))
 
-    # ── 4. Train Models
-    model_builders = {
-        "hybrid": build_hybrid_model,
-        "lstm": build_lstm_model,
-        "cnn": build_cnn_model,
-    }
-
-    request = ["hybrid", "lstm", "cnn"] if args.model == "all" else [args.model]
+    # ── 4. Train Model
+    m_name = "hybrid"
+    print(f"\n[combined] === Training {m_name.upper()} model on combined datasets ===")
+    builder = build_hybrid_model
+    model = compile_model(builder(input_shape=input_shape), learning_rate=args.lr)
     
-    all_metrics = {}
-    all_histories = []
-    keras_paths = {}
+    history = model.fit(
+        X_tr, [y_reg_tr, y_clf_tr],
+        sample_weight=sample_weights,
+        validation_data=(X_val, [y_reg_val, y_clf_val]),
+        epochs=args.epochs, batch_size=args.batch_size,
+        callbacks=get_callbacks(patience=args.patience),
+        verbose=1,
+    )
 
-    for m_name in request:
-        print(f"\n[{dataset}] === Training {m_name.upper()} model ===")
-        builder = model_builders[m_name]
-        model = compile_model(builder(input_shape=input_shape), learning_rate=args.lr)
-        
-        history = model.fit(
-            X_tr, [y_reg_tr, y_clf_tr],
-            sample_weight=sample_weights,
-            validation_data=(X_val, [y_reg_val, y_clf_val]),
-            epochs=args.epochs, batch_size=args.batch_size,
-            callbacks=get_callbacks(patience=args.patience),
-            verbose=1,
-        )
-
-        metrics = evaluate_model(model, X_reg_test, y_raw_test, X_clf_test, y_clf_test, args.rul_cap)
-        all_metrics[m_name] = metrics
-        all_histories.append(serialize_history(history, m_name))
-        
-        print(f"[{dataset}] {m_name} Evaluation -> RMSE: {metrics['rmse']}, MAE: {metrics['mae']}, F1: {metrics['f1']}")
-
-        # Temporary save all requested models so we can rank them safely
-        temp_path = os.path.join(models_dir, f"{m_name}_temp.keras")
-        model.save(temp_path)
-        keras_paths[m_name] = temp_path
-
-    # ── 5. Best Model Selection Workflow ──────────────────────────────────────
-    # Sort strictly: RMSE (asc) -> MAE (asc) -> F1 (desc)
-    ranked_models = sorted(all_metrics.keys(), key=lambda m: (
-        all_metrics[m]["rmse"],
-        all_metrics[m]["mae"],
-        -all_metrics[m]["f1"]
-    ))
+    metrics = evaluate_model(model, X_reg_test, y_raw_test, X_clf_test, y_clf_test, args.rul_cap)
+    all_metrics = {m_name: metrics}
+    all_histories = [serialize_history(history, m_name)]
     
-    best_model_name = ranked_models[0]
-    best_metrics = all_metrics[best_model_name]
-    print(f"\n[{dataset}] * BEST MODEL IDENTIFIED: {best_model_name.upper()} *")
-    print(f"[{dataset}] * METRICS: RMSE={best_metrics['rmse']} | MAE={best_metrics['mae']} | Accuracy={best_metrics['accuracy']} *")
+    print(f"[combined] {m_name} Evaluation -> RMSE: {metrics['rmse']}, MAE: {metrics['mae']}, F1: {metrics['f1']}")
 
-    # Rename best model strictly into inference loader form
     best_model_path = os.path.join(models_dir, "best_model.keras")
     if os.path.exists(best_model_path):
         os.remove(best_model_path)
-    os.rename(keras_paths[best_model_name], best_model_path)
+    model.save(best_model_path)
 
-    # Cleanup losers
-    for m_name, p in keras_paths.items():
-        if m_name != best_model_name and os.path.exists(p):
-            os.remove(p)
-            
     # Re-load best model to extract final deterministic predictions output
     final_model = tf.keras.models.load_model(best_model_path)
     best_preds = get_per_engine_predictions(
-        final_model, test_df, feature_cols, args.window_size, args.rul_cap, best_model_name
+        final_model, test_df, feature_cols, args.window_size, args.rul_cap, m_name
     )
 
+    # ── Strict Validation Checks ──
+    # Check for constant predictions / model collapse
+    pred_ruls = np.array([p["predicted_rul"] for p in best_preds])
+    if np.std(pred_ruls) < 2.0:
+        print("[WARNING] Strict Validation Failed: Model predictions are nearly constant (potential model collapse/leakage).")
+        
+    # Check per-dataset performance explicitly
+    per_dataset_metrics = {}
+    for dst, offset in offsets.items():
+        dst_preds = [p for p in best_preds if offset < p["engine_id"] <= offset + 999]
+        if not dst_preds: continue
+        
+        preds_arr = np.array([p["predicted_rul"] for p in dst_preds])
+        actuals_arr = np.array([p["actual_rul"] for p in dst_preds])
+        dst_rmse = np.sqrt(mean_squared_error(actuals_arr, preds_arr))
+        dst_mae = mean_absolute_error(actuals_arr, preds_arr)
+        per_dataset_metrics[dst] = {"rmse": round(float(dst_rmse), 3), "mae": round(float(dst_mae), 3)}
+        print(f"[{dst}] Validated Performance: RMSE={dst_rmse:.3f}, MAE={dst_mae:.3f}")
+
     # ── 6. Save JSON Manifest Artifacts ──────────────────────────────────────
+    with open(os.path.join(models_dir, "model_info.json"), "w") as f:
+        json.dump({
+            "best_model": m_name, 
+            "metrics": metrics,
+            "description": "Generalized Hybrid CNN-LSTM model trained on combined FD001-FD004 CMAPSS dataset"
+        }, f, indent=2)
+
     with open(os.path.join(models_dir, "best_model_info.json"), "w") as f:
-        json.dump({"best_model": best_model_name, "metrics": best_metrics}, f, indent=2)
+        # For legacy compatibility during transition
+        json.dump({
+            "best_model": m_name, 
+            "metrics": metrics,
+        }, f, indent=2)
 
     with open(os.path.join(models_dir, "metrics.json"), "w") as f:
         json.dump(all_metrics, f, indent=2)
+        
+    with open(os.path.join(models_dir, "per_dataset_metrics.json"), "w") as f:
+        json.dump(per_dataset_metrics, f, indent=2)
 
     with open(os.path.join(models_dir, "training_history.json"), "w") as f:
         json.dump(all_histories, f, indent=2)
@@ -369,31 +394,30 @@ def train_dataset(dataset: str, args):
         json.dump(engine_data, f)
 
     meta = {
-        "dataset": dataset,
+        "dataset": "combined",
+        "type": "generalized_hybrid",
         "window_size": args.window_size, "rul_cap": args.rul_cap,
-        "features": feature_cols, "trained_models": request,
-        "best_model": best_model_name
+        "features": feature_cols, "trained_models": [m_name],
+        "best_model": m_name
     }
     with open(os.path.join(models_dir, "metadata.json"), "w") as f:
         json.dump(meta, f, indent=2)
 
     # ── 7. Automatic Plot Generation ─────────────────────────────────────────
     generate_plots(dataset, all_histories, best_preds, all_metrics, plots_dir)
-    print(f"[{dataset}] Done! Artifacts populated into models/{dataset} and plots generated in plots/{dataset}.\n")
+    print(f"[combined] Done! Artifacts populated into models/{dataset} and plots generated in plots/{dataset}.\n")
 
 
 # ── Run Controller ────────────────────────────────────────────────────────────
 
 def parse_args():
-    p = argparse.ArgumentParser(description="Multi-Dataset CMAPSS Predictor Train Pipeline")
-    p.add_argument("--dataset",      default="all", help="all | FD001 | FD002...")
-    p.add_argument("--model",        default="all", choices=["all", "hybrid", "lstm", "cnn"])
-    p.add_argument("--epochs",       type=int,   default=30)
-    p.add_argument("--batch_size",   type=int,   default=64)
-    p.add_argument("--window_size",  type=int,   default=30)
-    p.add_argument("--rul_cap",      type=int,   default=125)
-    p.add_argument("--lr",           type=float, default=1e-3)
-    p.add_argument("--patience",     type=int,   default=10)
+    p = argparse.ArgumentParser(description="Generalized Multi-Dataset CMAPSS Predictor Train Pipeline")
+    p.add_argument("--epochs",       type=int,   default=30,   help="Max training epochs")
+    p.add_argument("--batch_size",   type=int,   default=128,  help="Mini-batch size")
+    p.add_argument("--window_size",  type=int,   default=50,   help="Sliding window length (was 30)")
+    p.add_argument("--rul_cap",      type=int,   default=125,  help="Piecewise RUL cap")
+    p.add_argument("--lr",           type=float, default=5e-4, help="Initial learning rate (was 1e-3)")
+    p.add_argument("--patience",     type=int,   default=12,   help="EarlyStopping patience (was 5)")
     p.add_argument("--seed",         type=int,   default=42)
     return p.parse_args()
 
@@ -402,10 +426,4 @@ if __name__ == "__main__":
     np.random.seed(args.seed)
     tf.random.set_seed(args.seed)
 
-    targets = list(DATASET_FILES.keys()) if args.dataset == "all" else [args.dataset.upper()]
-    
-    for dst in targets:
-        if dst in DATASET_FILES:
-            train_dataset(dst, args)
-        else:
-            print(f"Unknown dataset {dst}. Skipping.")
+    train_combined(args)

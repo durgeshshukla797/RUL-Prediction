@@ -1,0 +1,6532 @@
+[
+  {
+    "engine_id": 1003,
+    "actual_rul": 69.0,
+    "predicted_rul": 56.77,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9665,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1004,
+    "actual_rul": 82.0,
+    "predicted_rul": 93.19,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1005,
+    "actual_rul": 91.0,
+    "predicted_rul": 90.13,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9995,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1006,
+    "actual_rul": 93.0,
+    "predicted_rul": 108.89,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1007,
+    "actual_rul": 91.0,
+    "predicted_rul": 94.68,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1008,
+    "actual_rul": 95.0,
+    "predicted_rul": 99.02,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1009,
+    "actual_rul": 111.0,
+    "predicted_rul": 109.78,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1010,
+    "actual_rul": 96.0,
+    "predicted_rul": 87.3,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1011,
+    "actual_rul": 97.0,
+    "predicted_rul": 94.21,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1012,
+    "actual_rul": 124.0,
+    "predicted_rul": 86.29,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9993,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1013,
+    "actual_rul": 95.0,
+    "predicted_rul": 98.48,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1015,
+    "actual_rul": 83.0,
+    "predicted_rul": 114.91,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1016,
+    "actual_rul": 84.0,
+    "predicted_rul": 112.67,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1017,
+    "actual_rul": 50.0,
+    "predicted_rul": 58.7,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9766,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1018,
+    "actual_rul": 28.0,
+    "predicted_rul": 28.77,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9204,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1019,
+    "actual_rul": 87.0,
+    "predicted_rul": 98.52,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1020,
+    "actual_rul": 16.0,
+    "predicted_rul": 17.02,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.6969,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1021,
+    "actual_rul": 57.0,
+    "predicted_rul": 50.11,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.8949,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1023,
+    "actual_rul": 113.0,
+    "predicted_rul": 116.59,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1024,
+    "actual_rul": 20.0,
+    "predicted_rul": 23.92,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9735,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1026,
+    "actual_rul": 119.0,
+    "predicted_rul": 113.87,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1027,
+    "actual_rul": 66.0,
+    "predicted_rul": 72.12,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9967,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1028,
+    "actual_rul": 97.0,
+    "predicted_rul": 108.28,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1029,
+    "actual_rul": 90.0,
+    "predicted_rul": 101.8,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1030,
+    "actual_rul": 115.0,
+    "predicted_rul": 81.57,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9988,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1031,
+    "actual_rul": 8.0,
+    "predicted_rul": 12.27,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9101,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1032,
+    "actual_rul": 48.0,
+    "predicted_rul": 59.3,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.979,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1033,
+    "actual_rul": 106.0,
+    "predicted_rul": 95.13,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1034,
+    "actual_rul": 7.0,
+    "predicted_rul": 7.33,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9939,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1035,
+    "actual_rul": 11.0,
+    "predicted_rul": 14.71,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.7186,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1036,
+    "actual_rul": 19.0,
+    "predicted_rul": 21.56,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9452,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1037,
+    "actual_rul": 21.0,
+    "predicted_rul": 25.02,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9686,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1038,
+    "actual_rul": 50.0,
+    "predicted_rul": 70.78,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9958,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1040,
+    "actual_rul": 28.0,
+    "predicted_rul": 30.17,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8883,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1041,
+    "actual_rul": 18.0,
+    "predicted_rul": 19.94,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9738,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1042,
+    "actual_rul": 10.0,
+    "predicted_rul": 13.11,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.8872,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1043,
+    "actual_rul": 59.0,
+    "predicted_rul": 90.47,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1044,
+    "actual_rul": 109.0,
+    "predicted_rul": 111.69,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1045,
+    "actual_rul": 114.0,
+    "predicted_rul": 75.41,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9977,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1046,
+    "actual_rul": 47.0,
+    "predicted_rul": 46.09,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.7943,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1047,
+    "actual_rul": 125.0,
+    "predicted_rul": 102.92,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1048,
+    "actual_rul": 92.0,
+    "predicted_rul": 108.77,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1049,
+    "actual_rul": 21.0,
+    "predicted_rul": 16.26,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.5467,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1050,
+    "actual_rul": 79.0,
+    "predicted_rul": 110.28,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1051,
+    "actual_rul": 114.0,
+    "predicted_rul": 94.78,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1052,
+    "actual_rul": 29.0,
+    "predicted_rul": 26.43,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9544,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1053,
+    "actual_rul": 26.0,
+    "predicted_rul": 26.31,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9552,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1054,
+    "actual_rul": 97.0,
+    "predicted_rul": 87.71,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1055,
+    "actual_rul": 125.0,
+    "predicted_rul": 113.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1056,
+    "actual_rul": 15.0,
+    "predicted_rul": 15.71,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.6415,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1057,
+    "actual_rul": 103.0,
+    "predicted_rul": 85.99,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9993,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1058,
+    "actual_rul": 37.0,
+    "predicted_rul": 32.83,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8195,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1059,
+    "actual_rul": 114.0,
+    "predicted_rul": 105.59,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1060,
+    "actual_rul": 100.0,
+    "predicted_rul": 108.84,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1061,
+    "actual_rul": 21.0,
+    "predicted_rul": 21.89,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9639,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1062,
+    "actual_rul": 54.0,
+    "predicted_rul": 53.16,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9389,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1063,
+    "actual_rul": 72.0,
+    "predicted_rul": 71.26,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9957,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1064,
+    "actual_rul": 28.0,
+    "predicted_rul": 26.6,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9498,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1065,
+    "actual_rul": 125.0,
+    "predicted_rul": 117.0,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1066,
+    "actual_rul": 14.0,
+    "predicted_rul": 18.4,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8428,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1067,
+    "actual_rul": 77.0,
+    "predicted_rul": 113.94,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1068,
+    "actual_rul": 8.0,
+    "predicted_rul": 9.8,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9811,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1069,
+    "actual_rul": 121.0,
+    "predicted_rul": 113.48,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1070,
+    "actual_rul": 94.0,
+    "predicted_rul": 102.21,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1071,
+    "actual_rul": 118.0,
+    "predicted_rul": 113.95,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1072,
+    "actual_rul": 50.0,
+    "predicted_rul": 64.74,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9911,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1073,
+    "actual_rul": 125.0,
+    "predicted_rul": 106.09,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1074,
+    "actual_rul": 125.0,
+    "predicted_rul": 106.92,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1075,
+    "actual_rul": 113.0,
+    "predicted_rul": 110.79,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1076,
+    "actual_rul": 10.0,
+    "predicted_rul": 10.15,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9728,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1077,
+    "actual_rul": 34.0,
+    "predicted_rul": 35.94,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7019,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1078,
+    "actual_rul": 107.0,
+    "predicted_rul": 118.43,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1079,
+    "actual_rul": 63.0,
+    "predicted_rul": 90.53,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1080,
+    "actual_rul": 90.0,
+    "predicted_rul": 88.95,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9995,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1081,
+    "actual_rul": 8.0,
+    "predicted_rul": 12.41,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.8771,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1082,
+    "actual_rul": 9.0,
+    "predicted_rul": 9.88,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9814,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1083,
+    "actual_rul": 125.0,
+    "predicted_rul": 112.87,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1084,
+    "actual_rul": 58.0,
+    "predicted_rul": 52.19,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9254,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1086,
+    "actual_rul": 89.0,
+    "predicted_rul": 107.04,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1087,
+    "actual_rul": 116.0,
+    "predicted_rul": 116.69,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1088,
+    "actual_rul": 115.0,
+    "predicted_rul": 88.82,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1089,
+    "actual_rul": 125.0,
+    "predicted_rul": 110.29,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1090,
+    "actual_rul": 28.0,
+    "predicted_rul": 23.89,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9708,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1091,
+    "actual_rul": 38.0,
+    "predicted_rul": 25.46,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9523,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1092,
+    "actual_rul": 20.0,
+    "predicted_rul": 21.52,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9141,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1093,
+    "actual_rul": 85.0,
+    "predicted_rul": 48.64,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.8604,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1094,
+    "actual_rul": 55.0,
+    "predicted_rul": 71.12,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9962,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1095,
+    "actual_rul": 125.0,
+    "predicted_rul": 108.48,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1096,
+    "actual_rul": 125.0,
+    "predicted_rul": 114.65,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1097,
+    "actual_rul": 82.0,
+    "predicted_rul": 103.55,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1098,
+    "actual_rul": 59.0,
+    "predicted_rul": 87.1,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1099,
+    "actual_rul": 117.0,
+    "predicted_rul": 110.82,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 1100,
+    "actual_rul": 20.0,
+    "predicted_rul": 20.14,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9437,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2001,
+    "actual_rul": 18.0,
+    "predicted_rul": 24.71,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9726,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2002,
+    "actual_rul": 79.0,
+    "predicted_rul": 82.75,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2003,
+    "actual_rul": 106.0,
+    "predicted_rul": 108.76,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2004,
+    "actual_rul": 110.0,
+    "predicted_rul": 75.99,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9977,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2005,
+    "actual_rul": 15.0,
+    "predicted_rul": 12.05,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9731,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2006,
+    "actual_rul": 125.0,
+    "predicted_rul": 105.91,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2007,
+    "actual_rul": 6.0,
+    "predicted_rul": 15.9,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7026,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2008,
+    "actual_rul": 90.0,
+    "predicted_rul": 52.48,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9244,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2009,
+    "actual_rul": 11.0,
+    "predicted_rul": 8.79,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9908,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2010,
+    "actual_rul": 79.0,
+    "predicted_rul": 69.92,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2011,
+    "actual_rul": 6.0,
+    "predicted_rul": 17.99,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9708,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2012,
+    "actual_rul": 73.0,
+    "predicted_rul": 106.69,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2013,
+    "actual_rul": 30.0,
+    "predicted_rul": 51.39,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.8499,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2014,
+    "actual_rul": 11.0,
+    "predicted_rul": 14.88,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.5393,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2015,
+    "actual_rul": 37.0,
+    "predicted_rul": 23.62,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9794,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2016,
+    "actual_rul": 67.0,
+    "predicted_rul": 96.49,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2017,
+    "actual_rul": 68.0,
+    "predicted_rul": 89.72,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2019,
+    "actual_rul": 22.0,
+    "predicted_rul": 19.16,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8991,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2020,
+    "actual_rul": 54.0,
+    "predicted_rul": 73.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9966,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2021,
+    "actual_rul": 97.0,
+    "predicted_rul": 77.91,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9961,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2022,
+    "actual_rul": 10.0,
+    "predicted_rul": 11.36,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.98,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2024,
+    "actual_rul": 77.0,
+    "predicted_rul": 77.56,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2025,
+    "actual_rul": 88.0,
+    "predicted_rul": 78.42,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9982,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2026,
+    "actual_rul": 125.0,
+    "predicted_rul": 60.18,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9739,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2027,
+    "actual_rul": 125.0,
+    "predicted_rul": 115.37,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2029,
+    "actual_rul": 83.0,
+    "predicted_rul": 110.69,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2030,
+    "actual_rul": 78.0,
+    "predicted_rul": 65.84,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9926,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2031,
+    "actual_rul": 75.0,
+    "predicted_rul": 110.3,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2032,
+    "actual_rul": 11.0,
+    "predicted_rul": 25.12,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9628,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2033,
+    "actual_rul": 53.0,
+    "predicted_rul": 46.81,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.7466,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2034,
+    "actual_rul": 125.0,
+    "predicted_rul": 116.68,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2035,
+    "actual_rul": 63.0,
+    "predicted_rul": 73.97,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9939,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2036,
+    "actual_rul": 100.0,
+    "predicted_rul": 64.71,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.988,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2038,
+    "actual_rul": 55.0,
+    "predicted_rul": 86.97,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9991,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2039,
+    "actual_rul": 48.0,
+    "predicted_rul": 70.34,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9937,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2040,
+    "actual_rul": 37.0,
+    "predicted_rul": 49.34,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.8079,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2041,
+    "actual_rul": 44.0,
+    "predicted_rul": 63.48,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9683,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2042,
+    "actual_rul": 27.0,
+    "predicted_rul": 28.13,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.94,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2043,
+    "actual_rul": 18.0,
+    "predicted_rul": 20.04,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9848,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2044,
+    "actual_rul": 6.0,
+    "predicted_rul": 7.65,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9926,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2045,
+    "actual_rul": 15.0,
+    "predicted_rul": 8.25,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9919,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2046,
+    "actual_rul": 112.0,
+    "predicted_rul": 108.62,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2047,
+    "actual_rul": 125.0,
+    "predicted_rul": 103.9,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2048,
+    "actual_rul": 13.0,
+    "predicted_rul": 23.15,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9768,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2049,
+    "actual_rul": 122.0,
+    "predicted_rul": 64.27,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9885,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2050,
+    "actual_rul": 13.0,
+    "predicted_rul": 21.12,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9723,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2052,
+    "actual_rul": 53.0,
+    "predicted_rul": 72.95,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9964,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2053,
+    "actual_rul": 52.0,
+    "predicted_rul": 73.61,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9961,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2054,
+    "actual_rul": 106.0,
+    "predicted_rul": 104.97,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2055,
+    "actual_rul": 103.0,
+    "predicted_rul": 98.57,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2056,
+    "actual_rul": 125.0,
+    "predicted_rul": 116.0,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2057,
+    "actual_rul": 123.0,
+    "predicted_rul": 108.12,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2058,
+    "actual_rul": 26.0,
+    "predicted_rul": 22.37,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9837,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2060,
+    "actual_rul": 73.0,
+    "predicted_rul": 77.61,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9981,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2061,
+    "actual_rul": 125.0,
+    "predicted_rul": 87.86,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2062,
+    "actual_rul": 39.0,
+    "predicted_rul": 32.89,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8662,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2063,
+    "actual_rul": 39.0,
+    "predicted_rul": 24.7,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9748,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2064,
+    "actual_rul": 14.0,
+    "predicted_rul": 21.8,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9293,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2065,
+    "actual_rul": 11.0,
+    "predicted_rul": 8.63,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9909,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2066,
+    "actual_rul": 121.0,
+    "predicted_rul": 113.37,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2067,
+    "actual_rul": 86.0,
+    "predicted_rul": 65.97,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9902,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2068,
+    "actual_rul": 56.0,
+    "predicted_rul": 72.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2069,
+    "actual_rul": 115.0,
+    "predicted_rul": 112.48,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2070,
+    "actual_rul": 17.0,
+    "predicted_rul": 39.26,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.5852,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2071,
+    "actual_rul": 125.0,
+    "predicted_rul": 108.49,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2072,
+    "actual_rul": 104.0,
+    "predicted_rul": 92.81,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9995,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2073,
+    "actual_rul": 78.0,
+    "predicted_rul": 58.73,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9513,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2074,
+    "actual_rul": 86.0,
+    "predicted_rul": 101.86,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2075,
+    "actual_rul": 98.0,
+    "predicted_rul": 92.69,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2076,
+    "actual_rul": 36.0,
+    "predicted_rul": 24.48,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9694,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2077,
+    "actual_rul": 94.0,
+    "predicted_rul": 70.78,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9921,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2078,
+    "actual_rul": 52.0,
+    "predicted_rul": 41.81,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.6398,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2079,
+    "actual_rul": 91.0,
+    "predicted_rul": 75.23,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9961,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2080,
+    "actual_rul": 15.0,
+    "predicted_rul": 23.62,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9707,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2081,
+    "actual_rul": 125.0,
+    "predicted_rul": 110.17,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2082,
+    "actual_rul": 74.0,
+    "predicted_rul": 113.79,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2084,
+    "actual_rul": 17.0,
+    "predicted_rul": 20.74,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9721,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2085,
+    "actual_rul": 47.0,
+    "predicted_rul": 64.15,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9873,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2086,
+    "actual_rul": 125.0,
+    "predicted_rul": 101.06,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2087,
+    "actual_rul": 21.0,
+    "predicted_rul": 36.08,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7412,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2088,
+    "actual_rul": 79.0,
+    "predicted_rul": 75.81,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9958,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2089,
+    "actual_rul": 97.0,
+    "predicted_rul": 83.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9988,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2090,
+    "actual_rul": 8.0,
+    "predicted_rul": 11.13,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9829,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2091,
+    "actual_rul": 9.0,
+    "predicted_rul": 6.45,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9951,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2092,
+    "actual_rul": 73.0,
+    "predicted_rul": 94.55,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2093,
+    "actual_rul": 125.0,
+    "predicted_rul": 107.35,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2094,
+    "actual_rul": 97.0,
+    "predicted_rul": 99.48,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2095,
+    "actual_rul": 73.0,
+    "predicted_rul": 80.5,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9979,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2096,
+    "actual_rul": 49.0,
+    "predicted_rul": 46.01,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.7396,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2097,
+    "actual_rul": 31.0,
+    "predicted_rul": 32.01,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8637,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2098,
+    "actual_rul": 97.0,
+    "predicted_rul": 91.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2099,
+    "actual_rul": 9.0,
+    "predicted_rul": 12.23,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9456,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2100,
+    "actual_rul": 14.0,
+    "predicted_rul": 19.58,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9193,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2102,
+    "actual_rul": 8.0,
+    "predicted_rul": 12.72,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9212,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2103,
+    "actual_rul": 8.0,
+    "predicted_rul": 10.21,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.983,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2104,
+    "actual_rul": 106.0,
+    "predicted_rul": 97.09,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2105,
+    "actual_rul": 116.0,
+    "predicted_rul": 102.19,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2106,
+    "actual_rul": 120.0,
+    "predicted_rul": 80.79,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9986,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2107,
+    "actual_rul": 61.0,
+    "predicted_rul": 67.94,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9907,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2108,
+    "actual_rul": 125.0,
+    "predicted_rul": 93.45,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2109,
+    "actual_rul": 35.0,
+    "predicted_rul": 44.37,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.609,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2110,
+    "actual_rul": 80.0,
+    "predicted_rul": 110.7,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2111,
+    "actual_rul": 9.0,
+    "predicted_rul": 32.62,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9381,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2112,
+    "actual_rul": 50.0,
+    "predicted_rul": 63.73,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9643,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2114,
+    "actual_rul": 78.0,
+    "predicted_rul": 104.21,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2115,
+    "actual_rul": 91.0,
+    "predicted_rul": 72.91,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2116,
+    "actual_rul": 7.0,
+    "predicted_rul": 6.06,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9957,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2117,
+    "actual_rul": 125.0,
+    "predicted_rul": 77.55,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9975,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2118,
+    "actual_rul": 125.0,
+    "predicted_rul": 110.37,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2119,
+    "actual_rul": 106.0,
+    "predicted_rul": 88.47,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9993,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2120,
+    "actual_rul": 15.0,
+    "predicted_rul": 32.45,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8688,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2121,
+    "actual_rul": 67.0,
+    "predicted_rul": 103.5,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2123,
+    "actual_rul": 125.0,
+    "predicted_rul": 107.2,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2124,
+    "actual_rul": 7.0,
+    "predicted_rul": 18.15,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8772,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2125,
+    "actual_rul": 125.0,
+    "predicted_rul": 100.18,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2126,
+    "actual_rul": 124.0,
+    "predicted_rul": 106.72,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2127,
+    "actual_rul": 82.0,
+    "predicted_rul": 98.0,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2128,
+    "actual_rul": 108.0,
+    "predicted_rul": 92.49,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2129,
+    "actual_rul": 79.0,
+    "predicted_rul": 60.82,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9825,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2130,
+    "actual_rul": 121.0,
+    "predicted_rul": 105.7,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2131,
+    "actual_rul": 120.0,
+    "predicted_rul": 112.02,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2132,
+    "actual_rul": 39.0,
+    "predicted_rul": 46.7,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.7391,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2133,
+    "actual_rul": 38.0,
+    "predicted_rul": 34.49,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8195,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2134,
+    "actual_rul": 9.0,
+    "predicted_rul": 6.59,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9951,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2135,
+    "actual_rul": 125.0,
+    "predicted_rul": 104.7,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2136,
+    "actual_rul": 87.0,
+    "predicted_rul": 93.63,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2137,
+    "actual_rul": 88.0,
+    "predicted_rul": 67.62,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.995,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2138,
+    "actual_rul": 7.0,
+    "predicted_rul": 9.45,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9843,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2139,
+    "actual_rul": 51.0,
+    "predicted_rul": 80.2,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9987,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2140,
+    "actual_rul": 55.0,
+    "predicted_rul": 30.01,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.909,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2141,
+    "actual_rul": 125.0,
+    "predicted_rul": 112.61,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2142,
+    "actual_rul": 47.0,
+    "predicted_rul": 55.86,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9286,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2143,
+    "actual_rul": 81.0,
+    "predicted_rul": 92.69,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2144,
+    "actual_rul": 43.0,
+    "predicted_rul": 57.74,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9366,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2145,
+    "actual_rul": 98.0,
+    "predicted_rul": 107.7,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2146,
+    "actual_rul": 10.0,
+    "predicted_rul": 29.99,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9061,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2147,
+    "actual_rul": 92.0,
+    "predicted_rul": 102.78,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2148,
+    "actual_rul": 11.0,
+    "predicted_rul": 9.84,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9869,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2149,
+    "actual_rul": 125.0,
+    "predicted_rul": 106.18,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2150,
+    "actual_rul": 34.0,
+    "predicted_rul": 34.92,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7971,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2151,
+    "actual_rul": 115.0,
+    "predicted_rul": 65.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9921,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2152,
+    "actual_rul": 59.0,
+    "predicted_rul": 83.68,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9988,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2153,
+    "actual_rul": 99.0,
+    "predicted_rul": 99.58,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2154,
+    "actual_rul": 103.0,
+    "predicted_rul": 104.31,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2155,
+    "actual_rul": 108.0,
+    "predicted_rul": 114.88,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2156,
+    "actual_rul": 83.0,
+    "predicted_rul": 114.58,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2157,
+    "actual_rul": 125.0,
+    "predicted_rul": 115.73,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2158,
+    "actual_rul": 15.0,
+    "predicted_rul": 21.22,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.872,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2159,
+    "actual_rul": 9.0,
+    "predicted_rul": 10.14,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.979,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2160,
+    "actual_rul": 42.0,
+    "predicted_rul": 50.32,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.8626,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2161,
+    "actual_rul": 13.0,
+    "predicted_rul": 22.47,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9815,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2162,
+    "actual_rul": 41.0,
+    "predicted_rul": 41.19,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.5255,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2163,
+    "actual_rul": 88.0,
+    "predicted_rul": 94.26,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2164,
+    "actual_rul": 14.0,
+    "predicted_rul": 20.06,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7964,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2166,
+    "actual_rul": 125.0,
+    "predicted_rul": 99.33,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2167,
+    "actual_rul": 96.0,
+    "predicted_rul": 110.0,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2168,
+    "actual_rul": 82.0,
+    "predicted_rul": 79.42,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9985,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2169,
+    "actual_rul": 125.0,
+    "predicted_rul": 96.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2170,
+    "actual_rul": 125.0,
+    "predicted_rul": 101.71,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2171,
+    "actual_rul": 36.0,
+    "predicted_rul": 21.42,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9814,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2172,
+    "actual_rul": 107.0,
+    "predicted_rul": 99.53,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2173,
+    "actual_rul": 14.0,
+    "predicted_rul": 9.18,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.973,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2174,
+    "actual_rul": 95.0,
+    "predicted_rul": 106.86,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2175,
+    "actual_rul": 125.0,
+    "predicted_rul": 108.76,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2176,
+    "actual_rul": 23.0,
+    "predicted_rul": 23.36,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9797,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2177,
+    "actual_rul": 6.0,
+    "predicted_rul": 6.43,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9951,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2178,
+    "actual_rul": 125.0,
+    "predicted_rul": 91.66,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2179,
+    "actual_rul": 35.0,
+    "predicted_rul": 32.68,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.857,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2180,
+    "actual_rul": 97.0,
+    "predicted_rul": 103.55,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2181,
+    "actual_rul": 68.0,
+    "predicted_rul": 90.18,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9995,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2182,
+    "actual_rul": 14.0,
+    "predicted_rul": 14.02,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.8199,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2183,
+    "actual_rul": 67.0,
+    "predicted_rul": 72.82,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9973,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2184,
+    "actual_rul": 125.0,
+    "predicted_rul": 113.91,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2185,
+    "actual_rul": 19.0,
+    "predicted_rul": 6.76,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9945,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2186,
+    "actual_rul": 10.0,
+    "predicted_rul": 12.29,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9731,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2187,
+    "actual_rul": 125.0,
+    "predicted_rul": 80.24,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9984,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2188,
+    "actual_rul": 125.0,
+    "predicted_rul": 106.26,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2189,
+    "actual_rul": 43.0,
+    "predicted_rul": 58.55,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9774,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2190,
+    "actual_rul": 12.0,
+    "predicted_rul": 19.64,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8846,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2191,
+    "actual_rul": 125.0,
+    "predicted_rul": 88.86,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2192,
+    "actual_rul": 13.0,
+    "predicted_rul": 14.04,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.8809,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2193,
+    "actual_rul": 37.0,
+    "predicted_rul": 29.92,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9071,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2194,
+    "actual_rul": 122.0,
+    "predicted_rul": 99.65,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2195,
+    "actual_rul": 80.0,
+    "predicted_rul": 62.34,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9881,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2196,
+    "actual_rul": 93.0,
+    "predicted_rul": 110.9,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2197,
+    "actual_rul": 125.0,
+    "predicted_rul": 103.54,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2198,
+    "actual_rul": 32.0,
+    "predicted_rul": 42.86,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.5383,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2199,
+    "actual_rul": 103.0,
+    "predicted_rul": 73.96,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9911,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2200,
+    "actual_rul": 125.0,
+    "predicted_rul": 91.12,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2202,
+    "actual_rul": 68.0,
+    "predicted_rul": 80.45,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9987,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2203,
+    "actual_rul": 125.0,
+    "predicted_rul": 80.95,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2206,
+    "actual_rul": 48.0,
+    "predicted_rul": 57.13,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9405,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2207,
+    "actual_rul": 85.0,
+    "predicted_rul": 100.49,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2208,
+    "actual_rul": 8.0,
+    "predicted_rul": 9.82,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9866,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2209,
+    "actual_rul": 23.0,
+    "predicted_rul": 15.11,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9352,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2210,
+    "actual_rul": 8.0,
+    "predicted_rul": 8.49,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9914,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2211,
+    "actual_rul": 6.0,
+    "predicted_rul": 13.2,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9671,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2212,
+    "actual_rul": 57.0,
+    "predicted_rul": 55.83,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9608,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2213,
+    "actual_rul": 83.0,
+    "predicted_rul": 87.73,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9991,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2214,
+    "actual_rul": 125.0,
+    "predicted_rul": 101.45,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2215,
+    "actual_rul": 101.0,
+    "predicted_rul": 97.29,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2216,
+    "actual_rul": 81.0,
+    "predicted_rul": 79.87,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9975,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2219,
+    "actual_rul": 73.0,
+    "predicted_rul": 89.98,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9995,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2220,
+    "actual_rul": 121.0,
+    "predicted_rul": 110.99,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2221,
+    "actual_rul": 125.0,
+    "predicted_rul": 100.75,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2222,
+    "actual_rul": 75.0,
+    "predicted_rul": 67.32,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9868,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2225,
+    "actual_rul": 11.0,
+    "predicted_rul": 16.18,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.5613,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2226,
+    "actual_rul": 108.0,
+    "predicted_rul": 83.26,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2227,
+    "actual_rul": 14.0,
+    "predicted_rul": 10.31,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9867,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2229,
+    "actual_rul": 61.0,
+    "predicted_rul": 96.27,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2230,
+    "actual_rul": 85.0,
+    "predicted_rul": 108.99,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2231,
+    "actual_rul": 8.0,
+    "predicted_rul": 8.61,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9915,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2232,
+    "actual_rul": 101.0,
+    "predicted_rul": 85.45,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9987,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2234,
+    "actual_rul": 89.0,
+    "predicted_rul": 110.86,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2235,
+    "actual_rul": 125.0,
+    "predicted_rul": 99.89,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2236,
+    "actual_rul": 12.0,
+    "predicted_rul": 14.88,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.8138,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2237,
+    "actual_rul": 62.0,
+    "predicted_rul": 65.42,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9862,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2238,
+    "actual_rul": 125.0,
+    "predicted_rul": 117.43,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2239,
+    "actual_rul": 101.0,
+    "predicted_rul": 85.97,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2240,
+    "actual_rul": 121.0,
+    "predicted_rul": 105.91,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2242,
+    "actual_rul": 17.0,
+    "predicted_rul": 24.5,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.962,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2245,
+    "actual_rul": 16.0,
+    "predicted_rul": 12.45,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.7644,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2246,
+    "actual_rul": 125.0,
+    "predicted_rul": 102.3,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2247,
+    "actual_rul": 125.0,
+    "predicted_rul": 81.67,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9987,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2248,
+    "actual_rul": 56.0,
+    "predicted_rul": 73.96,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9963,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2250,
+    "actual_rul": 23.0,
+    "predicted_rul": 23.55,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9725,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2251,
+    "actual_rul": 84.0,
+    "predicted_rul": 106.26,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2252,
+    "actual_rul": 12.0,
+    "predicted_rul": 20.02,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9755,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2253,
+    "actual_rul": 43.0,
+    "predicted_rul": 84.77,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2254,
+    "actual_rul": 48.0,
+    "predicted_rul": 25.78,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9644,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2255,
+    "actual_rul": 122.0,
+    "predicted_rul": 83.84,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9992,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2256,
+    "actual_rul": 125.0,
+    "predicted_rul": 101.88,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2257,
+    "actual_rul": 56.0,
+    "predicted_rul": 68.15,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.985,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2258,
+    "actual_rul": 125.0,
+    "predicted_rul": 97.61,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 2259,
+    "actual_rul": 51.0,
+    "predicted_rul": 102.98,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3001,
+    "actual_rul": 44.0,
+    "predicted_rul": 59.39,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.979,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3002,
+    "actual_rul": 51.0,
+    "predicted_rul": 82.63,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3003,
+    "actual_rul": 27.0,
+    "predicted_rul": 29.62,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8958,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3004,
+    "actual_rul": 120.0,
+    "predicted_rul": 110.24,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3005,
+    "actual_rul": 101.0,
+    "predicted_rul": 119.33,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3006,
+    "actual_rul": 99.0,
+    "predicted_rul": 111.08,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3007,
+    "actual_rul": 71.0,
+    "predicted_rul": 45.99,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.7679,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3008,
+    "actual_rul": 55.0,
+    "predicted_rul": 52.56,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9298,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3009,
+    "actual_rul": 55.0,
+    "predicted_rul": 45.2,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.7485,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3010,
+    "actual_rul": 66.0,
+    "predicted_rul": 106.03,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3011,
+    "actual_rul": 77.0,
+    "predicted_rul": 84.06,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9992,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3012,
+    "actual_rul": 115.0,
+    "predicted_rul": 109.58,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3013,
+    "actual_rul": 115.0,
+    "predicted_rul": 107.5,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3014,
+    "actual_rul": 31.0,
+    "predicted_rul": 29.87,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8946,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3015,
+    "actual_rul": 108.0,
+    "predicted_rul": 115.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3016,
+    "actual_rul": 56.0,
+    "predicted_rul": 118.88,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3017,
+    "actual_rul": 125.0,
+    "predicted_rul": 116.24,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3018,
+    "actual_rul": 125.0,
+    "predicted_rul": 116.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3019,
+    "actual_rul": 85.0,
+    "predicted_rul": 106.57,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3020,
+    "actual_rul": 56.0,
+    "predicted_rul": 67.34,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9941,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3021,
+    "actual_rul": 18.0,
+    "predicted_rul": 16.61,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.6384,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3022,
+    "actual_rul": 119.0,
+    "predicted_rul": 111.94,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3023,
+    "actual_rul": 78.0,
+    "predicted_rul": 73.59,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9974,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3024,
+    "actual_rul": 9.0,
+    "predicted_rul": 8.45,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9875,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3025,
+    "actual_rul": 58.0,
+    "predicted_rul": 40.73,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.5426,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3026,
+    "actual_rul": 11.0,
+    "predicted_rul": 13.1,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.8785,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3027,
+    "actual_rul": 88.0,
+    "predicted_rul": 114.72,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3028,
+    "actual_rul": 125.0,
+    "predicted_rul": 116.83,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3029,
+    "actual_rul": 124.0,
+    "predicted_rul": 113.69,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3030,
+    "actual_rul": 89.0,
+    "predicted_rul": 86.08,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9993,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3031,
+    "actual_rul": 79.0,
+    "predicted_rul": 93.66,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3032,
+    "actual_rul": 55.0,
+    "predicted_rul": 80.27,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9986,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3033,
+    "actual_rul": 71.0,
+    "predicted_rul": 76.54,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9982,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3034,
+    "actual_rul": 65.0,
+    "predicted_rul": 71.06,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9945,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3035,
+    "actual_rul": 87.0,
+    "predicted_rul": 111.77,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3036,
+    "actual_rul": 125.0,
+    "predicted_rul": 118.27,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3038,
+    "actual_rul": 22.0,
+    "predicted_rul": 27.63,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9336,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3039,
+    "actual_rul": 8.0,
+    "predicted_rul": 7.99,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9907,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3040,
+    "actual_rul": 41.0,
+    "predicted_rul": 33.14,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7979,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3041,
+    "actual_rul": 125.0,
+    "predicted_rul": 118.14,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3042,
+    "actual_rul": 115.0,
+    "predicted_rul": 102.08,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3043,
+    "actual_rul": 125.0,
+    "predicted_rul": 118.8,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3044,
+    "actual_rul": 69.0,
+    "predicted_rul": 60.36,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9799,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3045,
+    "actual_rul": 111.0,
+    "predicted_rul": 117.89,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3046,
+    "actual_rul": 7.0,
+    "predicted_rul": 10.98,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9499,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3047,
+    "actual_rul": 125.0,
+    "predicted_rul": 107.82,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3048,
+    "actual_rul": 55.0,
+    "predicted_rul": 54.15,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9482,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3049,
+    "actual_rul": 125.0,
+    "predicted_rul": 117.33,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3050,
+    "actual_rul": 11.0,
+    "predicted_rul": 13.76,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.8056,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3051,
+    "actual_rul": 78.0,
+    "predicted_rul": 93.39,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3053,
+    "actual_rul": 87.0,
+    "predicted_rul": 91.03,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3054,
+    "actual_rul": 87.0,
+    "predicted_rul": 112.84,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3055,
+    "actual_rul": 55.0,
+    "predicted_rul": 43.15,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.6659,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3056,
+    "actual_rul": 93.0,
+    "predicted_rul": 99.43,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3057,
+    "actual_rul": 88.0,
+    "predicted_rul": 90.34,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3058,
+    "actual_rul": 40.0,
+    "predicted_rul": 58.51,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9734,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3059,
+    "actual_rul": 49.0,
+    "predicted_rul": 54.49,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9512,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3060,
+    "actual_rul": 125.0,
+    "predicted_rul": 106.86,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3061,
+    "actual_rul": 125.0,
+    "predicted_rul": 118.6,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3062,
+    "actual_rul": 58.0,
+    "predicted_rul": 65.16,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9914,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3063,
+    "actual_rul": 117.0,
+    "predicted_rul": 115.81,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3064,
+    "actual_rul": 28.0,
+    "predicted_rul": 26.94,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9416,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3065,
+    "actual_rul": 115.0,
+    "predicted_rul": 114.38,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3066,
+    "actual_rul": 87.0,
+    "predicted_rul": 91.88,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3067,
+    "actual_rul": 92.0,
+    "predicted_rul": 90.44,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9995,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3068,
+    "actual_rul": 103.0,
+    "predicted_rul": 119.21,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3069,
+    "actual_rul": 100.0,
+    "predicted_rul": 117.07,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3070,
+    "actual_rul": 63.0,
+    "predicted_rul": 97.02,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3071,
+    "actual_rul": 35.0,
+    "predicted_rul": 33.87,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7721,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3072,
+    "actual_rul": 45.0,
+    "predicted_rul": 50.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9077,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3073,
+    "actual_rul": 99.0,
+    "predicted_rul": 112.42,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3074,
+    "actual_rul": 117.0,
+    "predicted_rul": 118.78,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3075,
+    "actual_rul": 45.0,
+    "predicted_rul": 58.3,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9729,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3076,
+    "actual_rul": 27.0,
+    "predicted_rul": 20.17,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9564,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3077,
+    "actual_rul": 86.0,
+    "predicted_rul": 82.2,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3078,
+    "actual_rul": 20.0,
+    "predicted_rul": 23.38,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9694,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3079,
+    "actual_rul": 18.0,
+    "predicted_rul": 19.03,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8478,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3080,
+    "actual_rul": 125.0,
+    "predicted_rul": 120.62,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3081,
+    "actual_rul": 15.0,
+    "predicted_rul": 17.95,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8268,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3082,
+    "actual_rul": 6.0,
+    "predicted_rul": 8.58,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9889,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3083,
+    "actual_rul": 125.0,
+    "predicted_rul": 102.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3084,
+    "actual_rul": 104.0,
+    "predicted_rul": 112.26,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3085,
+    "actual_rul": 56.0,
+    "predicted_rul": 103.84,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3086,
+    "actual_rul": 25.0,
+    "predicted_rul": 23.67,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9726,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3087,
+    "actual_rul": 68.0,
+    "predicted_rul": 69.76,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3089,
+    "actual_rul": 41.0,
+    "predicted_rul": 78.02,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9983,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3090,
+    "actual_rul": 51.0,
+    "predicted_rul": 55.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9618,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3091,
+    "actual_rul": 81.0,
+    "predicted_rul": 95.36,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3092,
+    "actual_rul": 14.0,
+    "predicted_rul": 15.89,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.5422,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3093,
+    "actual_rul": 67.0,
+    "predicted_rul": 86.05,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9993,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3094,
+    "actual_rul": 10.0,
+    "predicted_rul": 8.43,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9878,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3095,
+    "actual_rul": 125.0,
+    "predicted_rul": 102.26,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3096,
+    "actual_rul": 113.0,
+    "predicted_rul": 74.96,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9975,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3097,
+    "actual_rul": 123.0,
+    "predicted_rul": 117.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3098,
+    "actual_rul": 17.0,
+    "predicted_rul": 18.14,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8448,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3099,
+    "actual_rul": 8.0,
+    "predicted_rul": 8.93,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9849,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 3100,
+    "actual_rul": 28.0,
+    "predicted_rul": 25.13,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9645,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4001,
+    "actual_rul": 22.0,
+    "predicted_rul": 21.12,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9426,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4002,
+    "actual_rul": 39.0,
+    "predicted_rul": 61.41,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9683,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4003,
+    "actual_rul": 107.0,
+    "predicted_rul": 110.39,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4004,
+    "actual_rul": 75.0,
+    "predicted_rul": 108.44,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4005,
+    "actual_rul": 125.0,
+    "predicted_rul": 92.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9995,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4006,
+    "actual_rul": 78.0,
+    "predicted_rul": 117.24,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4007,
+    "actual_rul": 94.0,
+    "predicted_rul": 91.79,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4008,
+    "actual_rul": 14.0,
+    "predicted_rul": 7.45,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9936,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4009,
+    "actual_rul": 99.0,
+    "predicted_rul": 65.49,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9866,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4011,
+    "actual_rul": 125.0,
+    "predicted_rul": 104.23,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4012,
+    "actual_rul": 7.0,
+    "predicted_rul": 14.83,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.7379,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4013,
+    "actual_rul": 71.0,
+    "predicted_rul": 90.62,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9995,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4014,
+    "actual_rul": 105.0,
+    "predicted_rul": 64.5,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9739,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4015,
+    "actual_rul": 12.0,
+    "predicted_rul": 21.84,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9818,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4016,
+    "actual_rul": 125.0,
+    "predicted_rul": 114.78,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4017,
+    "actual_rul": 125.0,
+    "predicted_rul": 107.87,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4018,
+    "actual_rul": 104.0,
+    "predicted_rul": 107.42,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4020,
+    "actual_rul": 82.0,
+    "predicted_rul": 85.29,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9988,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4021,
+    "actual_rul": 91.0,
+    "predicted_rul": 100.75,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4022,
+    "actual_rul": 11.0,
+    "predicted_rul": 17.03,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.7776,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4023,
+    "actual_rul": 26.0,
+    "predicted_rul": 25.72,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9668,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4024,
+    "actual_rul": 125.0,
+    "predicted_rul": 106.18,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4025,
+    "actual_rul": 39.0,
+    "predicted_rul": 53.31,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9439,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4026,
+    "actual_rul": 92.0,
+    "predicted_rul": 107.2,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4027,
+    "actual_rul": 76.0,
+    "predicted_rul": 76.54,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9975,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4029,
+    "actual_rul": 64.0,
+    "predicted_rul": 90.13,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9995,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4030,
+    "actual_rul": 118.0,
+    "predicted_rul": 116.69,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4031,
+    "actual_rul": 6.0,
+    "predicted_rul": 7.33,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9932,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4032,
+    "actual_rul": 22.0,
+    "predicted_rul": 30.89,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9052,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4033,
+    "actual_rul": 125.0,
+    "predicted_rul": 120.12,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4034,
+    "actual_rul": 125.0,
+    "predicted_rul": 97.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4035,
+    "actual_rul": 36.0,
+    "predicted_rul": 24.47,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9745,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4036,
+    "actual_rul": 73.0,
+    "predicted_rul": 71.63,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9967,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4037,
+    "actual_rul": 89.0,
+    "predicted_rul": 49.46,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.8942,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4038,
+    "actual_rul": 11.0,
+    "predicted_rul": 13.23,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9531,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4039,
+    "actual_rul": 125.0,
+    "predicted_rul": 77.4,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9983,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4040,
+    "actual_rul": 10.0,
+    "predicted_rul": 8.85,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9907,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4041,
+    "actual_rul": 97.0,
+    "predicted_rul": 59.47,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9417,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4042,
+    "actual_rul": 30.0,
+    "predicted_rul": 38.01,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.6477,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4043,
+    "actual_rul": 42.0,
+    "predicted_rul": 69.34,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9885,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4044,
+    "actual_rul": 60.0,
+    "predicted_rul": 51.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9202,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4045,
+    "actual_rul": 85.0,
+    "predicted_rul": 108.44,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4047,
+    "actual_rul": 34.0,
+    "predicted_rul": 20.92,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9711,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4048,
+    "actual_rul": 45.0,
+    "predicted_rul": 50.82,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.8703,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4049,
+    "actual_rul": 24.0,
+    "predicted_rul": 22.23,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9808,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4050,
+    "actual_rul": 86.0,
+    "predicted_rul": 107.67,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4051,
+    "actual_rul": 119.0,
+    "predicted_rul": 120.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4052,
+    "actual_rul": 125.0,
+    "predicted_rul": 120.39,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4053,
+    "actual_rul": 125.0,
+    "predicted_rul": 113.48,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4054,
+    "actual_rul": 125.0,
+    "predicted_rul": 88.74,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4055,
+    "actual_rul": 125.0,
+    "predicted_rul": 115.59,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4056,
+    "actual_rul": 67.0,
+    "predicted_rul": 107.81,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4057,
+    "actual_rul": 97.0,
+    "predicted_rul": 116.91,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4058,
+    "actual_rul": 8.0,
+    "predicted_rul": 13.71,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.8916,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4060,
+    "actual_rul": 125.0,
+    "predicted_rul": 94.85,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4061,
+    "actual_rul": 51.0,
+    "predicted_rul": 45.71,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.7712,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4062,
+    "actual_rul": 33.0,
+    "predicted_rul": 24.19,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9696,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4063,
+    "actual_rul": 125.0,
+    "predicted_rul": 113.75,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4064,
+    "actual_rul": 46.0,
+    "predicted_rul": 50.74,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9073,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4065,
+    "actual_rul": 12.0,
+    "predicted_rul": 9.18,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9899,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4066,
+    "actual_rul": 125.0,
+    "predicted_rul": 101.35,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4067,
+    "actual_rul": 46.0,
+    "predicted_rul": 52.87,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.8982,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4068,
+    "actual_rul": 46.0,
+    "predicted_rul": 40.73,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.526,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4069,
+    "actual_rul": 12.0,
+    "predicted_rul": 11.85,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9773,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4070,
+    "actual_rul": 33.0,
+    "predicted_rul": 50.88,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.905,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4071,
+    "actual_rul": 15.0,
+    "predicted_rul": 22.73,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9671,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4072,
+    "actual_rul": 125.0,
+    "predicted_rul": 115.72,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4073,
+    "actual_rul": 23.0,
+    "predicted_rul": 34.85,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7491,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4074,
+    "actual_rul": 89.0,
+    "predicted_rul": 118.38,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4075,
+    "actual_rul": 124.0,
+    "predicted_rul": 102.49,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4077,
+    "actual_rul": 25.0,
+    "predicted_rul": 47.08,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.7254,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4078,
+    "actual_rul": 74.0,
+    "predicted_rul": 105.79,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4079,
+    "actual_rul": 78.0,
+    "predicted_rul": 97.86,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4080,
+    "actual_rul": 114.0,
+    "predicted_rul": 73.12,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9973,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4081,
+    "actual_rul": 96.0,
+    "predicted_rul": 107.04,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4082,
+    "actual_rul": 10.0,
+    "predicted_rul": 9.62,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9895,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4083,
+    "actual_rul": 125.0,
+    "predicted_rul": 110.73,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4084,
+    "actual_rul": 125.0,
+    "predicted_rul": 100.3,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4085,
+    "actual_rul": 115.0,
+    "predicted_rul": 107.95,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4086,
+    "actual_rul": 70.0,
+    "predicted_rul": 69.24,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9921,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4087,
+    "actual_rul": 94.0,
+    "predicted_rul": 113.52,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4088,
+    "actual_rul": 56.0,
+    "predicted_rul": 69.26,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9952,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4089,
+    "actual_rul": 86.0,
+    "predicted_rul": 84.15,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9991,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4090,
+    "actual_rul": 96.0,
+    "predicted_rul": 93.04,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4091,
+    "actual_rul": 50.0,
+    "predicted_rul": 65.98,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9932,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4092,
+    "actual_rul": 73.0,
+    "predicted_rul": 92.17,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4093,
+    "actual_rul": 125.0,
+    "predicted_rul": 116.31,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4094,
+    "actual_rul": 125.0,
+    "predicted_rul": 114.26,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4095,
+    "actual_rul": 125.0,
+    "predicted_rul": 108.1,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4096,
+    "actual_rul": 71.0,
+    "predicted_rul": 88.62,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9993,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4097,
+    "actual_rul": 105.0,
+    "predicted_rul": 107.07,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4098,
+    "actual_rul": 113.0,
+    "predicted_rul": 112.83,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4099,
+    "actual_rul": 37.0,
+    "predicted_rul": 34.53,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7791,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4100,
+    "actual_rul": 7.0,
+    "predicted_rul": 13.5,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.8733,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4101,
+    "actual_rul": 13.0,
+    "predicted_rul": 10.87,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9545,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4102,
+    "actual_rul": 22.0,
+    "predicted_rul": 17.32,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7678,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4103,
+    "actual_rul": 9.0,
+    "predicted_rul": 8.98,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9906,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4104,
+    "actual_rul": 120.0,
+    "predicted_rul": 120.5,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4105,
+    "actual_rul": 100.0,
+    "predicted_rul": 65.82,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.993,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4106,
+    "actual_rul": 107.0,
+    "predicted_rul": 81.39,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4107,
+    "actual_rul": 41.0,
+    "predicted_rul": 94.55,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9996,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4108,
+    "actual_rul": 125.0,
+    "predicted_rul": 86.39,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9989,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4109,
+    "actual_rul": 125.0,
+    "predicted_rul": 114.8,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4110,
+    "actual_rul": 59.0,
+    "predicted_rul": 31.32,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8891,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4111,
+    "actual_rul": 18.0,
+    "predicted_rul": 21.2,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9784,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4112,
+    "actual_rul": 66.0,
+    "predicted_rul": 78.79,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9959,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4113,
+    "actual_rul": 13.0,
+    "predicted_rul": 28.7,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9404,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4114,
+    "actual_rul": 14.0,
+    "predicted_rul": 22.81,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9813,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4115,
+    "actual_rul": 125.0,
+    "predicted_rul": 87.3,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9991,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4116,
+    "actual_rul": 13.0,
+    "predicted_rul": 12.36,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9623,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4117,
+    "actual_rul": 75.0,
+    "predicted_rul": 39.13,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.643,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4118,
+    "actual_rul": 8.0,
+    "predicted_rul": 19.98,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9671,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4119,
+    "actual_rul": 109.0,
+    "predicted_rul": 78.38,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9986,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4120,
+    "actual_rul": 125.0,
+    "predicted_rul": 47.57,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.776,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4121,
+    "actual_rul": 41.0,
+    "predicted_rul": 32.25,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.8916,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4122,
+    "actual_rul": 125.0,
+    "predicted_rul": 115.19,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4123,
+    "actual_rul": 23.0,
+    "predicted_rul": 30.14,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9088,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4124,
+    "actual_rul": 86.0,
+    "predicted_rul": 87.59,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9993,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4126,
+    "actual_rul": 15.0,
+    "predicted_rul": 15.48,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.6327,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4127,
+    "actual_rul": 125.0,
+    "predicted_rul": 102.13,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4128,
+    "actual_rul": 125.0,
+    "predicted_rul": 95.76,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4129,
+    "actual_rul": 120.0,
+    "predicted_rul": 113.87,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4130,
+    "actual_rul": 125.0,
+    "predicted_rul": 81.64,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9975,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4131,
+    "actual_rul": 101.0,
+    "predicted_rul": 87.37,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9992,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4132,
+    "actual_rul": 116.0,
+    "predicted_rul": 98.38,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4133,
+    "actual_rul": 125.0,
+    "predicted_rul": 116.97,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4134,
+    "actual_rul": 36.0,
+    "predicted_rul": 55.75,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.961,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4135,
+    "actual_rul": 7.0,
+    "predicted_rul": 7.78,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9901,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4136,
+    "actual_rul": 122.0,
+    "predicted_rul": 78.02,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9973,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4137,
+    "actual_rul": 125.0,
+    "predicted_rul": 53.36,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9328,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4138,
+    "actual_rul": 88.0,
+    "predicted_rul": 86.89,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9992,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4139,
+    "actual_rul": 125.0,
+    "predicted_rul": 114.07,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4140,
+    "actual_rul": 125.0,
+    "predicted_rul": 68.45,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9916,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4142,
+    "actual_rul": 108.0,
+    "predicted_rul": 95.43,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4143,
+    "actual_rul": 53.0,
+    "predicted_rul": 66.98,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.993,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4145,
+    "actual_rul": 59.0,
+    "predicted_rul": 70.29,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9952,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4146,
+    "actual_rul": 100.0,
+    "predicted_rul": 113.62,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4147,
+    "actual_rul": 56.0,
+    "predicted_rul": 71.62,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9968,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4148,
+    "actual_rul": 125.0,
+    "predicted_rul": 105.39,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4149,
+    "actual_rul": 76.0,
+    "predicted_rul": 101.29,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4150,
+    "actual_rul": 57.0,
+    "predicted_rul": 43.84,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.635,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4151,
+    "actual_rul": 31.0,
+    "predicted_rul": 19.62,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.5342,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4152,
+    "actual_rul": 88.0,
+    "predicted_rul": 85.04,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4153,
+    "actual_rul": 125.0,
+    "predicted_rul": 106.16,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4154,
+    "actual_rul": 34.0,
+    "predicted_rul": 25.46,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.956,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4155,
+    "actual_rul": 7.0,
+    "predicted_rul": 8.07,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9926,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4157,
+    "actual_rul": 125.0,
+    "predicted_rul": 119.6,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4158,
+    "actual_rul": 6.0,
+    "predicted_rul": 21.61,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9716,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4159,
+    "actual_rul": 22.0,
+    "predicted_rul": 25.3,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9329,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4160,
+    "actual_rul": 83.0,
+    "predicted_rul": 98.97,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4161,
+    "actual_rul": 82.0,
+    "predicted_rul": 106.71,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4162,
+    "actual_rul": 84.0,
+    "predicted_rul": 91.42,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9994,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4163,
+    "actual_rul": 95.0,
+    "predicted_rul": 110.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4165,
+    "actual_rul": 111.0,
+    "predicted_rul": 116.27,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4166,
+    "actual_rul": 72.0,
+    "predicted_rul": 110.69,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4167,
+    "actual_rul": 109.0,
+    "predicted_rul": 112.72,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4168,
+    "actual_rul": 87.0,
+    "predicted_rul": 67.57,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9873,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4171,
+    "actual_rul": 125.0,
+    "predicted_rul": 98.07,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4172,
+    "actual_rul": 12.0,
+    "predicted_rul": 24.59,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9699,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4173,
+    "actual_rul": 8.0,
+    "predicted_rul": 6.75,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9948,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4174,
+    "actual_rul": 10.0,
+    "predicted_rul": 17.79,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.528,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4175,
+    "actual_rul": 123.0,
+    "predicted_rul": 73.11,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9909,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4176,
+    "actual_rul": 103.0,
+    "predicted_rul": 85.23,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9992,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4177,
+    "actual_rul": 12.0,
+    "predicted_rul": 9.29,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9897,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4178,
+    "actual_rul": 106.0,
+    "predicted_rul": 97.71,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4179,
+    "actual_rul": 12.0,
+    "predicted_rul": 7.87,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9929,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4180,
+    "actual_rul": 32.0,
+    "predicted_rul": 28.76,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9223,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4181,
+    "actual_rul": 37.0,
+    "predicted_rul": 23.59,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9793,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4182,
+    "actual_rul": 116.0,
+    "predicted_rul": 106.15,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4183,
+    "actual_rul": 15.0,
+    "predicted_rul": 19.61,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.7679,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4184,
+    "actual_rul": 10.0,
+    "predicted_rul": 22.82,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9569,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4185,
+    "actual_rul": 46.0,
+    "predicted_rul": 52.98,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9191,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4187,
+    "actual_rul": 24.0,
+    "predicted_rul": 23.97,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9765,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4188,
+    "actual_rul": 125.0,
+    "predicted_rul": 70.89,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9909,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4189,
+    "actual_rul": 56.0,
+    "predicted_rul": 37.73,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7167,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4190,
+    "actual_rul": 43.0,
+    "predicted_rul": 39.2,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.5198,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4191,
+    "actual_rul": 125.0,
+    "predicted_rul": 112.47,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4192,
+    "actual_rul": 71.0,
+    "predicted_rul": 76.82,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9981,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4193,
+    "actual_rul": 104.0,
+    "predicted_rul": 94.32,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4194,
+    "actual_rul": 15.0,
+    "predicted_rul": 24.28,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9772,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4195,
+    "actual_rul": 125.0,
+    "predicted_rul": 118.79,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4196,
+    "actual_rul": 89.0,
+    "predicted_rul": 110.93,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4197,
+    "actual_rul": 36.0,
+    "predicted_rul": 25.33,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.969,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4198,
+    "actual_rul": 11.0,
+    "predicted_rul": 13.98,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.8807,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4199,
+    "actual_rul": 92.0,
+    "predicted_rul": 74.52,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9954,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4200,
+    "actual_rul": 96.0,
+    "predicted_rul": 76.48,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9948,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4201,
+    "actual_rul": 59.0,
+    "predicted_rul": 110.17,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4202,
+    "actual_rul": 13.0,
+    "predicted_rul": 11.75,
+    "health_class": 0,
+    "health_label": "Critical",
+    "health_color": "critical",
+    "confidence": 0.9641,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4203,
+    "actual_rul": 125.0,
+    "predicted_rul": 119.24,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4205,
+    "actual_rul": 125.0,
+    "predicted_rul": 97.45,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4206,
+    "actual_rul": 109.0,
+    "predicted_rul": 103.83,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4207,
+    "actual_rul": 116.0,
+    "predicted_rul": 110.18,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4208,
+    "actual_rul": 91.0,
+    "predicted_rul": 110.44,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4209,
+    "actual_rul": 11.0,
+    "predicted_rul": 23.84,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9719,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4210,
+    "actual_rul": 88.0,
+    "predicted_rul": 93.64,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9997,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4211,
+    "actual_rul": 108.0,
+    "predicted_rul": 120.25,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4212,
+    "actual_rul": 76.0,
+    "predicted_rul": 77.68,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9982,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4213,
+    "actual_rul": 14.0,
+    "predicted_rul": 28.19,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9139,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4214,
+    "actual_rul": 89.0,
+    "predicted_rul": 62.98,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9884,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4215,
+    "actual_rul": 125.0,
+    "predicted_rul": 114.31,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4216,
+    "actual_rul": 17.0,
+    "predicted_rul": 38.0,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.648,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4217,
+    "actual_rul": 66.0,
+    "predicted_rul": 61.03,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.954,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4218,
+    "actual_rul": 125.0,
+    "predicted_rul": 105.43,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4219,
+    "actual_rul": 41.0,
+    "predicted_rul": 49.7,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.8463,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4220,
+    "actual_rul": 125.0,
+    "predicted_rul": 113.13,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4221,
+    "actual_rul": 73.0,
+    "predicted_rul": 46.53,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.728,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4222,
+    "actual_rul": 39.0,
+    "predicted_rul": 50.56,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.878,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4223,
+    "actual_rul": 58.0,
+    "predicted_rul": 63.21,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9893,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4224,
+    "actual_rul": 14.0,
+    "predicted_rul": 21.83,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9475,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4226,
+    "actual_rul": 88.0,
+    "predicted_rul": 113.98,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4227,
+    "actual_rul": 125.0,
+    "predicted_rul": 117.7,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4228,
+    "actual_rul": 125.0,
+    "predicted_rul": 119.93,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4230,
+    "actual_rul": 98.0,
+    "predicted_rul": 106.34,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4231,
+    "actual_rul": 33.0,
+    "predicted_rul": 59.18,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9813,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4232,
+    "actual_rul": 125.0,
+    "predicted_rul": 116.47,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4233,
+    "actual_rul": 110.0,
+    "predicted_rul": 102.94,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4234,
+    "actual_rul": 68.0,
+    "predicted_rul": 77.13,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9971,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4235,
+    "actual_rul": 24.0,
+    "predicted_rul": 23.88,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9739,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4236,
+    "actual_rul": 75.0,
+    "predicted_rul": 111.46,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9999,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4237,
+    "actual_rul": 18.0,
+    "predicted_rul": 34.6,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.7465,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4238,
+    "actual_rul": 16.0,
+    "predicted_rul": 24.51,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.942,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4240,
+    "actual_rul": 98.0,
+    "predicted_rul": 29.2,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9131,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4242,
+    "actual_rul": 81.0,
+    "predicted_rul": 112.58,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4243,
+    "actual_rul": 118.0,
+    "predicted_rul": 112.24,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4244,
+    "actual_rul": 35.0,
+    "predicted_rul": 58.45,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.972,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4245,
+    "actual_rul": 125.0,
+    "predicted_rul": 116.65,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 1.0,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4247,
+    "actual_rul": 112.0,
+    "predicted_rul": 98.78,
+    "health_class": 2,
+    "health_label": "Healthy",
+    "health_color": "healthy",
+    "confidence": 0.9998,
+    "model_used": "hybrid"
+  },
+  {
+    "engine_id": 4248,
+    "actual_rul": 26.0,
+    "predicted_rul": 23.08,
+    "health_class": 1,
+    "health_label": "Warning",
+    "health_color": "warning",
+    "confidence": 0.9774,
+    "model_used": "hybrid"
+  }
+]

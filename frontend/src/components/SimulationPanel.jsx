@@ -16,7 +16,7 @@ const SPEED_OPTIONS = [
   { label: '5×',   ms: 200  },
 ];
 
-export default function SimulationPanel({ engineIds, dataset = 'FD001' }) {
+export default function SimulationPanel({ engineIds }) {
   const [engineId, setEngineId] = useState(engineIds[0] || 1);
   const [maxCycle, setMaxCycle] = useState(100);
   const [currentCycle, setCurrentCycle] = useState(30);
@@ -30,7 +30,7 @@ export default function SimulationPanel({ engineIds, dataset = 'FD001' }) {
   const runStep = useCallback(async (cycle) => {
     try {
       setLoading(true);
-      const result = await predictEngineAtCycle(engineId, cycle, dataset);
+      const result = await predictEngineAtCycle(engineId, cycle);
       setPrediction(result);
       setHistory((prev) => [
         ...prev,
@@ -42,7 +42,7 @@ export default function SimulationPanel({ engineIds, dataset = 'FD001' }) {
     } finally {
       setLoading(false);
     }
-  }, [engineId, dataset]);
+  }, [engineId]);
 
   useEffect(() => {
     if (running) {
@@ -94,7 +94,9 @@ export default function SimulationPanel({ engineIds, dataset = 'FD001' }) {
             onChange={(e) => { handleReset(); setEngineId(Number(e.target.value)); }}
           >
             {engineIds.slice(0, 20).map((id) => (
-              <option key={id} value={id}>Engine {id}</option>
+              <option key={id} value={id}>
+                {id >= 4000 ? 'FD004' : id >= 3000 ? 'FD003' : id >= 2000 ? 'FD002' : 'FD001'} - Engine {id % 1000}
+              </option>
             ))}
           </select>
         </div>

@@ -57,32 +57,38 @@ app.add_middleware(
 
 app.mount("/plots", StaticFiles(directory=PLOTS_DIR), name="plots")
 
-# ── Runtime state (Lazy Loaded) ───────────────────────────────────────────────
-dataset_state: dict = {}
+# ── Runtime state (Eagerly Loaded) ─────────────────────────────────────────
+state: dict = {}
 
-def get_state(dataset: str):
-    dataset = dataset.upper()
-    if dataset in dataset_state:
-        return dataset_state[dataset]
-        
+def load_combined_state():
+    dataset = "combined"
     d_path = os.path.join(MODELS_DIR, dataset)
     if not os.path.exists(d_path):
-        raise HTTPException(404, f"Dataset models {dataset} not found. Run train.py first.")
+        print(f"[api] Warning: combined models not found at {d_path}. Run train_combined first.")
+        return
         
-    print(f"[api] Lazy loading dataset {dataset} into memory...")
-    st = {}
+    print(f"[api] Loading combined dataset into memory...")
     try:
-        st["scaler"], st["feature_cols"], st["rul_cap"] = load_preprocessing_artifacts(d_path)
+        state["scaler"], state["feature_cols"], state["rul_cap"] = load_preprocessing_artifacts(d_path)
     except Exception as e:
-        raise HTTPException(500, f"Failed to load artifacts for {dataset}: {e}")
+        print(f"Failed to load artifacts for {dataset}: {e}")
+        return
         
-    st["window_size"] = DEFAULT_WINDOW
-    
+    # Read window_size from metadata.json — must match what the model was trained with
+    meta_path = os.path.join(d_path, "metadata.json")
+    if os.path.exists(meta_path):
+        with open(meta_path) as f:
+            meta = json.load(f)
+        state["window_size"] = meta.get("window_size", DEFAULT_WINDOW)
+    else:
+        state["window_size"] = DEFAULT_WINDOW
+    print(f"[api] window_size={state['window_size']}")
+
     best_model_path = os.path.join(d_path, "best_model.keras")
     if os.path.exists(best_model_path):
-        st["primary_model"] = tf.keras.models.load_model(best_model_path)
+        state["primary_model"] = tf.keras.models.load_model(best_model_path)
     else:
-        raise HTTPException(503, f"best_model.keras not found for {dataset}")
+        print(f"[api] Error: best_model.keras not found for {dataset}")
         
     for key, filename in [
         ("metrics", "metrics.json"),
@@ -91,20 +97,29 @@ def get_state(dataset: str):
         ("engine_data", "engine_data.json"),
         ("metadata", "metadata.json"),
         ("best_model_info", "best_model_info.json"),
+        ("per_dataset_metrics", "per_dataset_metrics.json"),
     ]:
         p = os.path.join(d_path, filename)
-        st[key] = json.load(open(p)) if os.path.exists(p) else {}
-        
-    dataset_state[dataset] = st
-    return st
+        state[key] = json.load(open(p)) if os.path.exists(p) else {}
+
+# Load on startup
+load_combined_state()
+
+def get_state():
+    if not state or "primary_model" not in state:
+        # Try relistening (in case it was just trained)
+        load_combined_state()
+        if not state or "primary_model" not in state:
+            raise HTTPException(503, "Combined model not loaded. Run train.py first.")
+    return state
 
 
 # ── Pydantic schemas ──────────────────────────────────────────────────────────
 
 class PredictRequest(BaseModel):
-    engine_id: int = Field(..., description="Engine unit number (1-indexed)")
+    engine_id: int = Field(..., description="Engine unit number (1-indexed, or offset ID)")
     cycle: int = Field(..., ge=1, description="Current cycle number")
-    dataset: str = Field("FD001", description="Dataset to use")
+    # Removed dataset field
 
 
 class PredictionResponse(BaseModel):
@@ -139,12 +154,12 @@ def _predict_sequence(X: np.ndarray, model, model_name: str, rul_cap: int) -> di
 
 @app.get("/", tags=["health"])
 async def root():
-    return {"status": "ok", "loaded_datasets": list(dataset_state.keys())}
+    return {"status": "ok", "loaded": bool(state.get("primary_model"))}
 
 
 @app.get("/engines", tags=["data"])
-async def list_engines(dataset: str = Query("FD001")):
-    st = get_state(dataset)
+async def list_engines():
+    st = get_state()
     engine_data = st.get("engine_data", {})
     if not engine_data: raise HTTPException(503, "Engine data empty.")
     ids = sorted([int(k) for k in engine_data.keys()])
@@ -152,8 +167,8 @@ async def list_engines(dataset: str = Query("FD001")):
 
 
 @app.get("/engine/{engine_id}", tags=["data"])
-async def get_engine_data(engine_id: int, dataset: str = Query("FD001")):
-    st = get_state(dataset)
+async def get_engine_data(engine_id: int):
+    st = get_state()
     engine_data = st.get("engine_data", {})
     key = str(engine_id)
     if key not in engine_data: raise HTTPException(404, f"Engine {engine_id} not found.")
@@ -179,8 +194,8 @@ async def get_engine_data(engine_id: int, dataset: str = Query("FD001")):
 
 
 @app.get("/engine/{engine_id}/predict/{cycle}", tags=["prediction"])
-async def predict_engine_cycle(engine_id: int, cycle: int, dataset: str = Query("FD001")):
-    st = get_state(dataset)
+async def predict_engine_cycle(engine_id: int, cycle: int):
+    st = get_state()
     engine_data = st.get("engine_data", {})
     key = str(engine_id)
     if key not in engine_data: raise HTTPException(404, f"Engine {engine_id} not found.")
@@ -201,8 +216,6 @@ async def predict_engine_cycle(engine_id: int, cycle: int, dataset: str = Query(
         rows.append(row)
 
     eng_df = pd.DataFrame(rows)
-    if len(eng_df) < window_size:
-        raise HTTPException(400, f"Need >= {window_size} cycles.")
 
     X = create_inference_sequence(eng_df, feature_cols, window_size)
     m = st["primary_model"]
@@ -214,7 +227,7 @@ async def predict_engine_cycle(engine_id: int, cycle: int, dataset: str = Query(
 
 @app.post("/predict", response_model=PredictionResponse, tags=["prediction"])
 async def predict(request: PredictRequest):
-    st = get_state(request.dataset)
+    st = get_state()
     engine_data = st.get("engine_data", {})
     key = str(request.engine_id)
     if key not in engine_data: raise HTTPException(404, f"Engine {request.engine_id} not found.")
@@ -235,8 +248,6 @@ async def predict(request: PredictRequest):
         rows.append(row)
 
     eng_df = pd.DataFrame(rows)
-    if len(eng_df) < window_size:
-        raise HTTPException(400, f"Need >= {window_size} cycles.")
 
     X = create_inference_sequence(eng_df, feature_cols, window_size)
     m = st["primary_model"]
@@ -249,8 +260,8 @@ async def predict(request: PredictRequest):
 
 
 @app.post("/upload", tags=["prediction"])
-async def upload_csv(file: UploadFile = File(...), dataset: str = Query("FD001")):
-    st = get_state(dataset)
+async def upload_csv(file: UploadFile = File(...)):
+    st = get_state()
     content = await file.read()
     try:
         try:
@@ -282,9 +293,6 @@ async def upload_csv(file: UploadFile = File(...), dataset: str = Query("FD001")
         for engine_id in sorted(df_norm["unit"].unique()):
             eng_df = df_norm[df_norm["unit"] == engine_id].sort_values("time")
             X = create_inference_sequence(eng_df, feature_cols, window_size)
-            if X is None:
-                results.append({"engine_id": int(engine_id), "error": "Insufficient data"})
-                continue
             pred = _predict_sequence(X, m, model_name, st["rul_cap"])
             results.append({"engine_id": int(engine_id), "n_cycles": len(eng_df), **pred})
 
@@ -295,20 +303,25 @@ async def upload_csv(file: UploadFile = File(...), dataset: str = Query("FD001")
 
 
 @app.get("/metrics", tags=["evaluation"])
-async def get_metrics(dataset: str = Query("FD001")):
-    return get_state(dataset).get("metrics", {})
+async def get_metrics():
+    return get_state().get("metrics", {})
 
 
 @app.get("/history", tags=["evaluation"])
-async def get_history(dataset: str = Query("FD001")):
-    return get_state(dataset).get("history", [])
+async def get_history():
+    return get_state().get("history", [])
 
 
 @app.get("/predictions", tags=["evaluation"])
-async def get_predictions(dataset: str = Query("FD001")):
-    return get_state(dataset).get("predictions", [])
+async def get_predictions():
+    return get_state().get("predictions", [])
 
 
 @app.get("/best_model_info", tags=["evaluation"])
-async def get_best_model_info(dataset: str = Query("FD001")):
-    return get_state(dataset).get("best_model_info", {})
+async def get_best_model_info():
+    return get_state().get("best_model_info", {})
+
+
+@app.get("/per_dataset_metrics", tags=["evaluation"])
+async def get_per_dataset_metrics():
+    return get_state().get("per_dataset_metrics", {})

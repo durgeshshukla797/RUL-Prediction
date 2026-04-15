@@ -9,7 +9,6 @@ import SensorChart from './components/SensorChart';
 import TrainingLossChart from './components/TrainingLossChart';
 import ModelComparisonTable from './components/ModelComparisonTable';
 import SimulationPanel from './components/SimulationPanel';
-import BatchResultsTable from './components/BatchResultsTable';
 
 import {
   fetchEngines,
@@ -17,8 +16,8 @@ import {
   fetchMetrics,
   fetchHistory,
   fetchPredictions,
+  fetchPerDatasetMetrics,
   predict,
-  uploadCsv,
 } from './api/client';
 
 // ── Fallback: show engines 1-100 even when API is offline ─────────────────
@@ -62,26 +61,24 @@ function SetupBanner({ onRetry, onDismiss }) {
 
 export default function App() {
   // ── Global data ──────────────────────────────────────────────────────────
-  const [dataset,     setDataset]     = useState('FD001');
-  const [engineIds,   setEngineIds]   = useState(FALLBACK_ENGINE_IDS); // pre-seeded with 1-100
-  const [metrics,     setMetrics]     = useState({});
-  const [history,     setHistory]     = useState([]);
-  const [allPreds,    setAllPreds]    = useState([]);
-  const [apiOk,       setApiOk]       = useState(false);
-  const [showBanner,  setShowBanner]  = useState(true);
+  const [engineIds,        setEngineIds]        = useState(FALLBACK_ENGINE_IDS);
+  const [metrics,          setMetrics]          = useState({});
+  const [perDatasetMetrics,setPerDatasetMetrics] = useState({});
+  const [history,          setHistory]          = useState([]);
+  const [allPreds,         setAllPreds]         = useState([]);
+  const [apiOk,            setApiOk]            = useState(false);
+  const [showBanner,       setShowBanner]       = useState(true);
 
   // ── Prediction state ─────────────────────────────────────────────────────
   const [selectedEngine, setSelectedEngine] = useState(null);
   const [cycle, setCycle]                   = useState(30);
-  const [model, setModel]                   = useState('hybrid');
   const [engineData, setEngineData]         = useState(null);
   const [prediction, setPrediction]         = useState(null);
   const [predLoading, setPredLoading]       = useState(false);
   const [predError, setPredError]           = useState(null);
 
-  // ── Upload state ─────────────────────────────────────────────────────────
-  const [batchResults, setBatchResults]   = useState(null);
-  const [uploadLoading, setUploadLoading] = useState(false);
+  // ── Upload state removed (upload feature removed) ───────────────────────
+
 
   // ── Active tab ───────────────────────────────────────────────────────────
   const [tab, setTab] = useState('dashboard');
@@ -89,33 +86,33 @@ export default function App() {
   // ── Load data from API ────────────────────────────────────────────────────
   const loadApiData = useCallback(() => {
     Promise.allSettled([
-      fetchEngines(dataset),
-      fetchMetrics(dataset),
-      fetchHistory(dataset),
-      fetchPredictions(dataset),
-    ]).then(([engines, mets, hist, preds]) => {
+      fetchEngines(),
+      fetchMetrics(),
+      fetchHistory(),
+      fetchPredictions(),
+      fetchPerDatasetMetrics(),
+    ]).then(([engines, mets, hist, preds, pdm]) => {
       if (engines.status === 'fulfilled') {
         const ids = engines.value.engine_ids || [];
-        if (ids.length > 0) setEngineIds(ids); // override fallback with real data
+        if (ids.length > 0) setEngineIds(ids);
         setApiOk(true);
         setShowBanner(false);
       } else {
         setApiOk(false);
-        // keep FALLBACK_ENGINE_IDS — already set as initial state
       }
-      if (mets.status === 'fulfilled')  setMetrics(mets.value);
-      if (hist.status === 'fulfilled')  setHistory(hist.value);
+      if (mets.status  === 'fulfilled') setMetrics(mets.value);
+      if (hist.status  === 'fulfilled') setHistory(hist.value);
       if (preds.status === 'fulfilled') setAllPreds(preds.value);
+      if (pdm.status   === 'fulfilled') setPerDatasetMetrics(pdm.value);
     });
   }, []);
 
-  useEffect(() => { loadApiData(); }, [loadApiData, dataset]);
+  useEffect(() => { loadApiData(); }, [loadApiData]);
 
-  // ── Fetch engine sensor data when selection changes ───────────────────────
   useEffect(() => {
     if (!selectedEngine) return;
     if (!apiOk) { setEngineData(null); return; }
-    fetchEngineData(selectedEngine, dataset)
+    fetchEngineData(selectedEngine)
       .then((data) => {
         setEngineData(data);
         const maxC = Math.max(...(data.cycles || [30]));
@@ -134,7 +131,7 @@ export default function App() {
     setPredLoading(true);
     setPredError(null);
     try {
-      const result = await predict(selectedEngine, cycle, dataset);
+      const result = await predict(selectedEngine, cycle);
       setPrediction(result);
     } catch (e) {
       setPredError(e?.response?.data?.detail || 'Prediction failed. Is the API running?');
@@ -144,18 +141,6 @@ export default function App() {
     }
   };
 
-  const handleUpload = async (file) => {
-    setUploadLoading(true);
-    setBatchResults(null);
-    try {
-      const data = await uploadCsv(file, dataset);
-      setBatchResults(data.predictions);
-    } catch (e) {
-      console.error('Upload failed:', e);
-    } finally {
-      setUploadLoading(false);
-    }
-  };
 
   const maxCycle = engineData ? Math.max(...(engineData.cycles || [0])) : 0;
 
@@ -186,20 +171,6 @@ export default function App() {
               <span>{apiOk ? 'API Connected' : 'API Offline'}</span>
               {!apiOk && <span className="text-muted/60">· click to retry</span>}
             </button>
-            <div className="flex items-center gap-2 bg-surface border border-border px-3 py-1 rounded-full">
-              <span className="text-xs text-muted">Dataset:</span>
-              <select
-                value={dataset}
-                onChange={(e) => setDataset(e.target.value)}
-                className="bg-transparent text-sm font-medium text-accent outline-none cursor-pointer"
-              >
-                {['FD001', 'FD002', 'FD003', 'FD004'].map((ds) => (
-                  <option key={ds} value={ds} className="bg-surface text-text">
-                    {ds}
-                  </option>
-                ))}
-              </select>
-            </div>
             <span className="text-xs bg-accent/10 text-accent border border-accent/30 px-2 py-0.5 rounded-full hidden sm:inline-block">
               {engineIds.length} engines
             </span>
@@ -240,6 +211,30 @@ export default function App() {
         {/* ── DASHBOARD TAB ─────────────────────────────────────────────── */}
         {tab === 'dashboard' && (
           <>
+            {/* Metrics strip — shown once API is live */}
+            {apiOk && metrics.hybrid && (() => {
+              const m = metrics.hybrid;
+              const stats = [
+                { label: 'RMSE',     value: m.rmse,                           unit: 'cycles', color: 'text-accent'  },
+                { label: 'MAE',      value: m.mae,                            unit: 'cycles', color: 'text-accent'  },
+                { label: 'Accuracy', value: (m.accuracy * 100).toFixed(1)+'%', unit: '',      color: 'text-success' },
+                { label: 'F1 Score', value: m.f1,                             unit: '',       color: 'text-success' },
+              ];
+              return (
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                  {stats.map(({ label, value, unit, color }) => (
+                    <div key={label} className="card py-3 px-4 flex flex-col gap-0.5">
+                      <p className="text-xs text-muted">{label}</p>
+                      <p className={`text-xl font-bold font-mono ${color}`}>
+                        {value}<span className="text-xs text-muted ml-1">{unit}</span>
+                      </p>
+                      <p className="text-xs text-muted/60">Global · Combined</p>
+                    </div>
+                  ))}
+                </div>
+              );
+            })()}
+
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
               <div className="lg:col-span-2">
                 <InputPanel
@@ -250,10 +245,7 @@ export default function App() {
                   onCycleChange={setCycle}
                   maxCycle={maxCycle}
                   onPredict={handlePredict}
-                  onUpload={handleUpload}
-                  loading={predLoading || uploadLoading}
-                  model={model}
-                  onModelChange={setModel}
+                  loading={predLoading}
                 />
               </div>
               <div>
@@ -264,8 +256,6 @@ export default function App() {
               </div>
             </div>
 
-            {batchResults && <BatchResultsTable results={batchResults} />}
-
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
               <RULChart predictions={allPreds} highlightedEngine={selectedEngine} />
               <SensorChart engineData={engineData} />
@@ -275,17 +265,89 @@ export default function App() {
 
         {/* ── SIMULATION TAB ────────────────────────────────────────────── */}
         {tab === 'simulation' && (
-          <SimulationPanel engineIds={engineIds} dataset={dataset} />
+          <SimulationPanel engineIds={engineIds} />
         )}
 
         {/* ── ANALYSIS TAB ─────────────────────────────────────────────── */}
         {tab === 'analysis' && (
           <div className="space-y-6">
+
+            {/* ── Evaluation Metrics Card ───────────────────────────────────── */}
+            <div className="card">
+              <p className="section-title mb-4">Model Evaluation Metrics</p>
+              {metrics.hybrid ? (
+                <>
+                  {/* Global row */}
+                  <div className="mb-4">
+                    <p className="text-xs text-muted uppercase tracking-widest mb-2">Global (Combined FD001–FD004)</p>
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                      {[
+                        { label: 'RMSE', value: metrics.hybrid.rmse, suffix: ' cycles' },
+                        { label: 'MAE',  value: metrics.hybrid.mae,  suffix: ' cycles' },
+                        { label: 'Accuracy', value: (metrics.hybrid.accuracy * 100).toFixed(2) + '%', suffix: '' },
+                        { label: 'F1 Score', value: metrics.hybrid.f1, suffix: '' },
+                      ].map(({ label, value, suffix }) => (
+                        <div key={label} className="bg-bg rounded-xl p-3 border border-border">
+                          <p className="text-xs text-muted mb-1">{label}</p>
+                          <p className="text-2xl font-bold font-mono text-accent">{value}<span className="text-xs text-muted">{suffix}</span></p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Per-dataset breakdown */}
+                  {Object.keys(perDatasetMetrics).length > 0 && (
+                    <div>
+                      <p className="text-xs text-muted uppercase tracking-widest mb-2">Per-Dataset Breakdown</p>
+                      <div className="overflow-x-auto">
+                        <table className="w-full text-sm">
+                          <thead>
+                            <tr className="border-b border-border">
+                              <th className="text-left py-2 pr-4 text-muted font-medium">Dataset</th>
+                              <th className="text-left py-2 pr-4 text-muted font-medium">Conditions</th>
+                              <th className="text-right py-2 pr-4 text-muted font-medium">RMSE</th>
+                              <th className="text-right py-2 text-muted font-medium">MAE</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {[['FD001','1 operating / 1 fault'],['FD002','6 operating / 1 fault'],['FD003','1 operating / 2 faults'],['FD004','6 operating / 2 faults']]
+                              .filter(([ds]) => perDatasetMetrics[ds])
+                              .map(([ds, cond]) => {
+                                const m = perDatasetMetrics[ds];
+                                const isWorst = m.rmse === Math.max(...Object.values(perDatasetMetrics).map(x => x.rmse));
+                                const isBest  = m.rmse === Math.min(...Object.values(perDatasetMetrics).map(x => x.rmse));
+                                return (
+                                  <tr key={ds} className="border-b border-border/50 hover:bg-surface/40 transition-colors">
+                                    <td className="py-2.5 pr-4">
+                                      <span className="font-mono text-sm font-semibold text-accent">{ds}</span>
+                                    </td>
+                                    <td className="py-2.5 pr-4 text-xs text-muted">{cond}</td>
+                                    <td className="py-2.5 pr-4 text-right font-mono">
+                                      <span className={isBest ? 'text-success font-bold' : isWorst ? 'text-warning' : 'text-text'}>
+                                        {m.rmse}
+                                      </span>
+                                    </td>
+                                    <td className="py-2.5 text-right font-mono text-text">{m.mae}</td>
+                                  </tr>
+                                );
+                              })
+                            }
+                          </tbody>
+                        </table>
+                      </div>
+                      <p className="text-xs text-muted mt-2">Lower is better. <span className="text-success">Green</span> = best subset, <span className="text-warning">amber</span> = hardest subset.</p>
+                    </div>
+                  )}
+                </>
+              ) : (
+                <p className="text-muted text-sm">Metrics not available. Train the model first.</p>
+              )}
+            </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <div className="card">
                 <p className="section-title">Model Comparison</p>
                 <img
-                  src={`http://localhost:8000/plots/${dataset}/model_comparison.png`}
+                  src={`http://localhost:8000/plots/combined/model_comparison.png`}
                   alt="Model Comparison"
                   className="w-full h-auto rounded mt-2 border border-border"
                   onError={(e) => e.target.style.display = 'none'}
@@ -294,7 +356,7 @@ export default function App() {
               <div className="card">
                 <p className="section-title">Training Loss Curves</p>
                 <img
-                  src={`http://localhost:8000/plots/${dataset}/loss_curve.png`}
+                  src={`http://localhost:8000/plots/combined/loss_curve.png`}
                   alt="Loss Curve"
                   className="w-full h-auto rounded mt-2 border border-border"
                   onError={(e) => e.target.style.display = 'none'}
@@ -306,7 +368,7 @@ export default function App() {
               <div className="card">
                 <p className="section-title">Actual vs Predicted RUL</p>
                 <img
-                  src={`http://localhost:8000/plots/${dataset}/prediction_vs_actual.png`}
+                  src={`http://localhost:8000/plots/combined/prediction_vs_actual.png`}
                   alt="Prediction vs Actual"
                   className="w-full h-auto rounded mt-2 border border-border"
                   onError={(e) => e.target.style.display = 'none'}
@@ -315,7 +377,7 @@ export default function App() {
               <div className="card">
                 <p className="section-title">Error Distribution</p>
                 <img
-                  src={`http://localhost:8000/plots/${dataset}/error_distribution.png`}
+                  src={`http://localhost:8000/plots/combined/error_distribution.png`}
                   alt="Error Distribution"
                   className="w-full h-auto rounded mt-2 border border-border"
                   onError={(e) => e.target.style.display = 'none'}
@@ -329,7 +391,9 @@ export default function App() {
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
                   {allPreds.slice(0, 8).map((p) => (
                     <div key={p.engine_id} className="bg-bg rounded-lg p-3 border border-border">
-                      <p className="text-xs text-muted mb-1">Engine {p.engine_id}</p>
+                      <p className="text-xs text-muted mb-1">
+                        {p.engine_id >= 4000 ? 'FD004' : p.engine_id >= 3000 ? 'FD003' : p.engine_id >= 2000 ? 'FD002' : 'FD001'} - Engine {p.engine_id % 1000}
+                      </p>
                       <p className="font-mono text-sm">
                         A: <span className="text-success">{p.actual_rul}</span>
                       </p>
@@ -357,7 +421,7 @@ export default function App() {
       {/* ── Footer ──────────────────────────────────────────────────────── */}
       <footer className="border-t border-border mt-12 py-4">
         <p className="text-center text-xs text-muted">
-          Predictive Maintenance System · NASA CMAPSS FD001 · Hybrid CNN-LSTM
+          Generalized Predictive Maintenance System · NASA CMAPSS Combined Dataset · Hybrid CNN-LSTM
         </p>
       </footer>
     </div>

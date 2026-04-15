@@ -1,0 +1,10 @@
+{
+  "best_model": "hybrid",
+  "metrics": {
+    "rmse": 18.596,
+    "mae": 13.683,
+    "accuracy": 0.9642,
+    "f1": 0.9691
+  },
+  "description": "Generalized Hybrid CNN-LSTM model trained on combined FD001-FD004 CMAPSS dataset"
+}

@@ -1,5 +1,6 @@
 // src/api/client.js
 // Central Axios client — all API calls go through here
+// Updated to support purely generalized endpoints without dataset dependencies
 
 import axios from 'axios';
 
@@ -12,39 +13,42 @@ const api = axios.create({
 
 // ── Engine endpoints ──────────────────────────────────────────────────────────
 
-export const fetchEngines = (dataset = 'FD001') =>
-  api.get('/engines', { params: { dataset } }).then((r) => r.data);
+export const fetchEngines = () =>
+  api.get('/engines').then((r) => r.data);
 
-export const fetchEngineData = (engineId, dataset = 'FD001') =>
-  api.get(`/engine/${engineId}`, { params: { dataset } }).then((r) => r.data);
+export const fetchEngineData = (engineId) =>
+  api.get(`/engine/${engineId}`).then((r) => r.data);
 
-export const predictEngineAtCycle = (engineId, cycle, dataset = 'FD001') =>
-  api.get(`/engine/${engineId}/predict/${cycle}`, { params: { dataset } })
+export const predictEngineAtCycle = (engineId, cycle) =>
+  api.get(`/engine/${engineId}/predict/${cycle}`)
     .then((r) => r.data);
 
 // ── Prediction endpoints ──────────────────────────────────────────────────────
 
-export const predict = (engineId, cycle, dataset = 'FD001') =>
-  api.post('/predict', { engine_id: engineId, cycle, dataset }).then((r) => r.data);
+export const predict = (engineId, cycle) =>
+  api.post('/predict', { engine_id: engineId, cycle }).then((r) => r.data);
 
-export const uploadCsv = (file, dataset = 'FD001') => {
+export const uploadCsv = (file) => {
   const form = new FormData();
   form.append('file', file);
-  return api.post(`/upload`, form, { params: { dataset } }).then((r) => r.data);
+  return api.post(`/upload`, form).then((r) => r.data);
 };
 
 // ── Metrics & History ─────────────────────────────────────────────────────────
 
-export const fetchMetrics = (dataset = 'FD001') =>
-  api.get('/metrics', { params: { dataset } }).then((r) => r.data);
+export const fetchMetrics = () =>
+  api.get('/metrics').then((r) => r.data);
 
-export const fetchHistory = (dataset = 'FD001') =>
-  api.get('/history', { params: { dataset } }).then((r) => r.data);
+export const fetchHistory = () =>
+  api.get('/history').then((r) => r.data);
 
-export const fetchPredictions = (dataset = 'FD001') =>
-  api.get('/predictions', { params: { dataset } }).then((r) => r.data);
+export const fetchPredictions = () =>
+  api.get('/predictions').then((r) => r.data);
 
-export const fetchBestModelInfo = (dataset = 'FD001') =>
-  api.get('/best_model_info', { params: { dataset } }).then((r) => r.data);
+export const fetchBestModelInfo = () =>
+  api.get('/best_model_info').then((r) => r.data);
+
+export const fetchPerDatasetMetrics = () =>
+  api.get('/per_dataset_metrics').then((r) => r.data);
 
 export default api;
