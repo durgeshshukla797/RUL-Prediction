@@ -25,4 +25,5 @@ COPY . .
 EXPOSE 8000
 
 # Start the application using Gunicorn
-CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "api.app:app", "--bind", "0.0.0.0:8000"]
+# Bind to the dynamic $PORT provided by the environment
+CMD ["sh", "-c", "gunicorn -w 4 -k uvicorn.workers.UvicornWorker api.app:app --bind 0.0.0.0:$PORT"]
