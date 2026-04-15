@@ -9,6 +9,7 @@ import SensorChart from './components/SensorChart';
 import TrainingLossChart from './components/TrainingLossChart';
 import ModelComparisonTable from './components/ModelComparisonTable';
 import SimulationPanel from './components/SimulationPanel';
+import UploadPage from './components/UploadPage';
 
 import {
   fetchEngines,
@@ -182,6 +183,7 @@ export default function App() {
           {[
             { id: 'dashboard',  label: 'Dashboard' },
             { id: 'simulation', label: 'Simulation' },
+            { id: 'upload',     label: '⬆ Upload & Predict' },
             { id: 'analysis',   label: 'Analysis' },
           ].map(({ id, label }) => (
             <button
@@ -266,6 +268,11 @@ export default function App() {
         {/* ── SIMULATION TAB ────────────────────────────────────────────── */}
         {tab === 'simulation' && (
           <SimulationPanel engineIds={engineIds} />
+        )}
+
+        {/* ── UPLOAD & PREDICT TAB ─────────────────────────────────────── */}
+        {tab === 'upload' && (
+          <UploadPage />
         )}
 
         {/* ── ANALYSIS TAB ─────────────────────────────────────────────── */}
