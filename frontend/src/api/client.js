@@ -8,7 +8,7 @@ export const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 const api = axios.create({
   baseURL: BASE_URL,
-  timeout: 60000,  // 60s for large files / slow CPU inference
+  timeout: 120000,  // 120s (doubled for slow Render model loading)
 });
 
 // ── Engine endpoints ──────────────────────────────────────────────────────────

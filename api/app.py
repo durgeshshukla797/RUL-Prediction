@@ -61,12 +61,17 @@ app = FastAPI(
     version="2.0.0",
 )
 
-# CORS Configuration
-# ALLOWED_ORIGINS should be a comma-separated string (e.g. "https://site.com, http://localhost:5173")
+# ── Middleware: Request Logging ──
+@app.middleware("http")
+async def log_requests(request, call_next):
+    logger.info(f"Incoming request: {request.method} {request.url.path}")
+    response = await call_next(request)
+    logger.info(f"Response status: {response.status_code}")
+    return response
+
+# ── Middleware: CORS ──
 raw_origins = os.getenv("ALLOWED_ORIGINS", "*")
 ALLOWED_ORIGINS = [o.strip() for o in raw_origins.split(",") if o.strip()]
-
-logger.info(f"CORS: Allowing origins: {ALLOWED_ORIGINS}")
 
 app.add_middleware(
     CORSMiddleware,
