@@ -26,4 +26,5 @@ EXPOSE 8000
 
 # Start the application using Gunicorn
 # Bind to the dynamic $PORT provided by the environment
-CMD ["sh", "-c", "gunicorn -w 4 -k uvicorn.workers.UvicornWorker api.app:app --bind 0.0.0.0:$PORT"]
+# Using 1 worker to stay within Render's Free Tier RAM limit (512MB)
+CMD ["sh", "-c", "gunicorn -w 1 -k uvicorn.workers.UvicornWorker api.app:app --bind 0.0.0.0:$PORT"]

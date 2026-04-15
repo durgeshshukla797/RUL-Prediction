@@ -123,8 +123,9 @@ def load_combined_state():
         p = os.path.join(d_path, filename)
         state[key] = json.load(open(p)) if os.path.exists(p) else {}
 
-# Load on startup
-load_combined_state()
+
+# Load on startup — removed for Render Free Tier to allow faster boot & lazy loading
+# load_combined_state()
 
 def get_state():
     if not state or "primary_model" not in state:
